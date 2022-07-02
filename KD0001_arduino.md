@@ -420,7 +420,11 @@ D7 starts blinking, which is on for 1 second and off for 1 second.
   
 **Project Introduction**
   
-
+The SOS distress signal is an international Morse code distress signal asking
+for help. Morse code is a character encoding. Each letter of English is composed
+of different combinations of bars and dots. The advantage of this is that using
+the simple two symbols all letters and numbers can be transmitted, which is very
+simple!
   
 **Working Principle**
   
