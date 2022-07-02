@@ -2,7 +2,7 @@
 
 ![](media/ee88ff10210161be072625fe1bf0d64f.png)
 
-## **1.Introduction**
+## 1.Introduction
 
 Coding Box is a programming learning toolbox based on Arduino, which is a
 programming tool specially designed for children over 6 years old.
