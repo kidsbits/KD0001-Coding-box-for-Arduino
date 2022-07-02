@@ -13,10 +13,10 @@ and etc. Lots of interesting projects can be carried out via Coding Box,
 including flashing LEDs, making intrusion alarms, smart fans, and temperature
 testers and others.
 
-![invest-in-coding-blog](media/87e61875b632bf2d7b1783e3c9293feb.png)
+![](media/87e61875b632bf2d7b1783e3c9293feb.png)
 
 Coding Box uses Arduino for programming, and is also compatible with MIXLY
-blockly graphics programming software, allowing children to learn from the
+blockly graphics programming software, allowing children to learn from themain
 simplest code and master the system's programming knowledge step by step.
 
 Download the Projects tutorial:
