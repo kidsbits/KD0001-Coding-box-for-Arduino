@@ -1,8 +1,8 @@
-# KD0001 Coding Box Kit for Arduino
+KD0001 Coding Box Kit for Arduino
 
 ![](media/ee88ff10210161be072625fe1bf0d64f.png)
 
-## 1.Introduction
+1.Introduction
 
 Coding Box is a programming learning toolbox based on Arduino, which is a
 programming tool specially designed for children over 6 years old.
@@ -23,7 +23,7 @@ Download the Projects tutorial:
 
 https://kd.kidsbits.cc/KD0001
 
-## 2.Component List
+2.Component List
 
 | Name               | Picture                                         | Interface                                    | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |--------------------|-------------------------------------------------|----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -42,9 +42,9 @@ https://kd.kidsbits.cc/KD0001
 | PIR Motion Sensor  | ![](media/d7f0a453f9fc2e421952ec5f93047b69.png) | Connected to digital pin D2.                 | PIR Motion Sensor is a sensor that uses the characteristics of temperature change to detect infrared radiation. When a person enters its sensing range, it outputs a high level. When the person leaves the sensing range, it automatically delays the high level and outputs a low level. Widely used in infrared automatic sensor lights, sensor switches, burglar alarms, infrared greeters, etc                                         |
 | Reed switch        | ![](media/54b7a16b851a0b3c5f7d381344a9f0f7.png) | Connected to analog pin A0.                  | Reed Sensor, also known as reed switch, is an electrical switch operated by an applied magnetic field. Widely used in home appliances, automotive, communications, industrial, medical, security and other fields. An example of a reed switch application is to detect the opening of a door, when used as a proximity switch for a security alarm.                                                                                        |
 
-## 3.Download Software & Install Driver
+3.Download Software & Install Driver
 
-### 3.1 Windows System
+3.1 Windows System
 
 (1) Download the Arduino IDE
 
@@ -131,7 +131,7 @@ the device as the figure shown below.
 
 ![](media/97e57ac74dfb924d7693f5fc524c7eb8.png)
 
-### 3.2 MAC System
+3.2 MAC System
 
 (1) Install Arduino IDE on MAC System
 
@@ -158,7 +158,7 @@ is download version. You just need to download the file to computer directly and
 unzip it. These two versions can be used normally. Choose one and download on
 your computer.
 
-### 3.3 Arduino IDE Setting
+3.3 Arduino IDE Setting
 
 Click![](media/675ae7298ce0973df720b2fbbb514caa.png)icon，open Arduino IDE.
 
@@ -194,7 +194,7 @@ E- Used to save the sketch.
 
 F- Used to send the serial data received from board to the serial monitor.
 
-### 3.4 Start your first program
+3.4 Start your first program
 
 Open the file to select Example, choose BLINK from BASIC, as shown below:
 
@@ -226,7 +226,7 @@ upload successfully.
 Upload the program successfully, the on-board LED lights on for 1s, lights off
 for 1s. Congratulation, you have finished the first program.
 
-### 3.5 Add Libraries to Arduino
+3.5 Add Libraries to Arduino
 
 What are Libraries ?
 
@@ -260,64 +260,63 @@ The library of this kit is successfully installed, as shown below:
 
 ![](media/de6c22db0849ca536d10e6639adeb1be.png)
 
-## 4.Project Details
+4.Project Details
 
-### Project 1: Hello World
+Project 1: Hello World
 
 ![](media/29d2f7eae72cb03a9968b8a6e25f70cc.png)
 
-**Project Introduction**
+Project Introduction
 
 As for starters, we will begin with something simple. In this project, you only
 need a PLUS board and a USB cable to start the "Hello World!" project. It is not
 only a communication test of your Arduino and PC, but also an enlightening
 project for you to have your first try in the Arduino world!
 
-**Project Code**
+Project Code
 
 After installing driver for Arduino, let's open Arduino software and compile
 code that enables Arduino to print "Hello World!" .
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 1
+Project 1
 
-  Hello World
+Hello World
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int val;//define variable val
+int val;//define variable val
 
-  void setup()
+void setup()
 
-  {
+{
 
-  Serial.begin(9600);// set the baud rate at 9600 .
+Serial.begin(9600);// set the baud rate at 9600 .
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  val=Serial.read();// read the Introduction or character from PC to Arduino, and
-  assign them to Val.
+val=Serial.read();// read the Introduction or character from PC to Arduino, and
 
-  if(val=='R')// determine if the Introduction or character received is “R”.
+assign them to Val.
 
-  { // if it’s “R”,
+if(val=='R')// determine if the Introduction or character received is “R”.
 
-  Serial.println("Hello World!");// display“Hello World！”string.
+{ // if it’s “R”,
 
-  }}
+Serial.println("Hello World!");// display“Hello World！”string.
 
-  /////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}}
 
-**Project Result**
+/////////////////////////////////////////////////////////////////
+
+Project Result
 
 Click to open the serial monitor, input an“R”, PC will receive the information
 from Arduino Hello World!
@@ -328,18 +327,18 @@ from Arduino Hello World!
 
 After choosing the proper port, the project is easy for you!
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 2: Blink
+Project 2: Blink
 
 ![](media/e172097d088597aeb4fa5b87884cc07b.png)
 
-**Project Introduction**
+Project Introduction
 
 In this project, we start to learn the digital output of Arduino. We used the
 digital pin of Arduino to turn on an LED and let it blink.
 
-**Working Principle**
+Working Principle
 
 ![](media/f50bb5dee55016ccda0047a0d15845e2.png)
 
@@ -350,62 +349,60 @@ It has positive and negative poles. The short leg is the negative pole, and the
 long one is the positive pole.
 ![red-led-pinout-schematic](media/f70404aa49540fd7aecae944c7c01f83.jpeg)
 
-**Circuit Connection**
+Circuit Connection
 
 ![](media/f3d5b1a8c9fb1296ba26d0675815ba63.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 2
+Project 2
 
-  Blink
+Blink
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int ledPin = 7; // define digital pin 7.
+int ledPin = 7; // define digital pin 7.
 
-  void setup()
+void setup()
 
-  {
+{
 
-  pinMode(ledPin, OUTPUT);// define led pin as output.
+pinMode(ledPin, OUTPUT);// define led pin as output.
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  digitalWrite(ledPin, HIGH); // set the LED on.
+digitalWrite(ledPin, HIGH); // set the LED on.
 
-  delay(1000); // wait for a second.
+delay(1000); // wait for a second.
 
-  digitalWrite(ledPin, LOW); // set the LED off.
+digitalWrite(ledPin, LOW); // set the LED off.
 
-  delay(1000); // wait for a second
+delay(1000); // wait for a second
 
-  }
+}
 
-  //////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//////////////////////////////////////////////////////////////////
 
-**Project Result**
+Project Result
 
 Upload the code to the coding box successfully, you can see that the red LED of
 D7 starts blinking, which is on for 1 second and off for 1 second.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 3: SOS
+Project 3: SOS
 
 ![](media/81e4da10825215960513501feec3da01.jpeg)
 
-**Project Introduction**
+Project Introduction
 
 The SOS distress signal is an international Morse code distress signal asking
 for help. Morse code is a character encoding. Each letter of English is composed
@@ -413,7 +410,7 @@ of different combinations of bars and dots. The advantage of this is that using
 the simple two symbols all letters and numbers can be transmitted, which is very
 simple!
 
-**Working Principle**
+Working Principle
 
 The letters can be spelled out through the two states of the LED switch, using
 long flashing and short flashing to indicate dots and bars. Just spell the three
@@ -424,114 +421,112 @@ represented by three dots, and we use short blinking instead, and the letter "O"
 is represented by three horizontal bars, which is replaced by long blinking
 here.
 
-**Circuit Connection**
+Circuit Connection
 
 ![](media/f3d5b1a8c9fb1296ba26d0675815ba63.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 3
+Project 3
 
-  s o s
+s o s
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int ledPin = 7;
+int ledPin = 7;
 
-  void setup()
+void setup()
 
-  {
+{
 
-  pinMode(ledPin, OUTPUT);
+pinMode(ledPin, OUTPUT);
 
-  }
+}
 
-  void loop() {
+void loop() {
 
-  // Three fast flashes to indicate the letter "S"
+// Three fast flashes to indicate the letter "S"
 
-  for(int x=0;x\<3;x++){
+for(int x=0;x\\\<3;x++){
 
-  digitalWrite(ledPin,HIGH); //Set the LED to on
+digitalWrite(ledPin,HIGH); //Set the LED to on
 
-  delay(150); //Delay 150 milliseconds
+delay(150); //Delay 150 milliseconds
 
-  digitalWrite(ledPin,LOW); //Set the LED to off
+digitalWrite(ledPin,LOW); //Set the LED to off
 
-  delay(100); //Delay 100 milliseconds
+delay(100); //Delay 100 milliseconds
 
-  }
+}
 
-  delay(100);
+delay(100);
 
-  //Three short flashes to indicate the letter "O"
+//Three short flashes to indicate the letter "O"
 
-  for(int x=0;x\<3;x++)
+for(int x=0;x\\\<3;x++)
 
-  {
+{
 
-  digitalWrite(ledPin,HIGH); //Set the LED to on
+digitalWrite(ledPin,HIGH); //Set the LED to on
 
-  delay(400); //delay 400 milliseconds
+delay(400); //delay 400 milliseconds
 
-  digitalWrite(ledPin,LOW); //Set the LED to off
+digitalWrite(ledPin,LOW); //Set the LED to off
 
-  delay(100); //delay 100 milliseconds
+delay(100); //delay 100 milliseconds
 
-  }
+}
 
-  delay(100);
+delay(100);
 
-  // three quick flashes to represent the letter "S"
+// three quick flashes to represent the letter "S"
 
-  for(int x=0;x\<3;x++)
+for(int x=0;x\\\<3;x++)
 
-  {
+{
 
-  digitalWrite(ledPin,HIGH); //Set the LED to on
+digitalWrite(ledPin,HIGH); //Set the LED to on
 
-  delay(150); //Delay 150 milliseconds
+delay(150); //Delay 150 milliseconds
 
-  digitalWrite(ledPin,LOW); //Set the LED to off
+digitalWrite(ledPin,LOW); //Set the LED to off
 
-  delay(100); //delay 100 milliseconds
+delay(100); //delay 100 milliseconds
 
-  }
+}
 
-  // Wait 5 seconds before repeating the S.0.S signal
+// Wait 5 seconds before repeating the S.0.S signal
 
-  delay(5000);
+delay(5000);
 
-  }
+}
 
-  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, you can see that the red LED at D7
 fast flash 3 times and then slowly flash 3 times alternatively, which can
 stimulate SOS alarm in Morse code.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 4: PWM
+Project 4: PWM
 
 ![F9L0KY5JFMT9AQJ](media/28b49fa1742d1dd05f1b226e98f72ede.gif)
 
-**Project Introduction**
+Project Introduction
 
 In this project, we will learn the PWM control of ARDUINO. PWM is the
 abbreviation of Pulse Width Modulation, which is a technology that encodes
 analog signal level into digital signal level. We use PWM to control an LED
 gradually from bright to dark.
 
-**Working Principle**
+Working Principle
 
 ![](media/6549bdbfd4e7b6b2b341012105d655e8.png)
 
@@ -553,7 +548,7 @@ The following are the three basic parameters of PMW.
 
 ![](media/a1fb50c608774f5334a561d8f4f0b3cd.jpeg)
 
-1.  The amplitude of pulse width (minimum / maximum)
+The amplitude of pulse width (minimum / maximum)
 
 2\. The pulse period (The reciprocal of pulse frequency in one second)
 
@@ -567,65 +562,63 @@ signal to control digital pin, also one about potentiometer.
 
 This time, we will use a potentiometer to control the brightness of the LED.
 
-**Circuit Connection**
+Circuit Connection
 
 ![](media/64faa5ce4a74dc78ea9b928f1ce769ba.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 4
+Project 4
 
-  PWM
+PWM
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int ledPin = 3;
+int ledPin = 3;
 
-  void setup()
+void setup()
 
-  {
+{
 
-  pinMode(ledPin,OUTPUT);
+pinMode(ledPin,OUTPUT);
 
-  }
+}
 
-  void loop(){
+void loop(){
 
-  for (int value = 0 ; value \< 255; value=value+1){
+for (int value = 0 ; value \\\< 255; value=value+1){
 
-  analogWrite(ledPin, value);
+analogWrite(ledPin, value);
 
-  delay(5);
+delay(5);
 
-  }
+}
 
-  for (int value = 255; value \>0; value=value-1){
+for (int value = 255; value \\\>0; value=value-1){
 
-  analogWrite(ledPin, value);
+analogWrite(ledPin, value);
 
-  delay(5);
+delay(5);
 
-  } }
+} }
 
-  /////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/////////////////////////////////////////////////////////////////
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, you can see the blue light in the
 RGB on the coding box constantly brightening and dimming, just like a breathing
 light.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 5: RGB Color
+Project 5: RGB Color
 
-**Project Introduction**
+Project Introduction
 
 ![](media/94bdff69e438989d8e0934e57f2e5c00.png)
 
@@ -633,7 +626,7 @@ The RGB color mode is a color standard in the industry. It obtains various
 colors by changing the three color channels of red (R), green (G), and blue (B)
 and integrating them. RGB denotes the three colors of red, green and blue.
 
-**Working Principle**
+Working Principle
 
 The monitors mostly adopt the RGB color standard, and all the colors on the
 computer screen are composed of the three colors of red, green and blue mixed in
@@ -643,20 +636,20 @@ different proportions.
 
 And we could adjust the LED brightness by PWM.
 
-**Circuit Connection**
+Circuit Connection
 
 ![](media/44e36de1fce7bb042cc536dbc38c4947.jpeg)
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, you can see the light of the RGB
 light on the coding box, and the color keeps changing.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 6: Play Music
+Project 6: Play Music
 
-**Project Introduction**
+Project Introduction
 
 ![tutorial-13-01](media/7698038b32063fb86a610cc95c750a51.jpeg)
 
@@ -670,7 +663,7 @@ characteristic allows the buzzer to play music melody.
 We used the shape of a bird that really likes to sing to complete this project.
 We can code some different songs, which is very interesting.
 
-**Working Principle**
+Working Principle
 
 ![](media/8d0020e53824072cbe9d4f7d2f8acb4f.png)
 
@@ -680,336 +673,336 @@ signals. There is little difference between the two kinds of buzzers, but when
 the pins of the two buzzers are placed up, the passive buzzer comes with green
 circuit board, and the one sealed with vinyl is an active buzzer.
 
-**Circuit Connection**
+Circuit Connection
 
 ![](media/2d3d9420ea333db45cae0882ae23544f.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 6
+Project 6
 
-  Play Music
+Play Music
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#define NOTE_B0 31
+\\\#define NOTE_B0 31
 
-  \#define NOTE_C1 33
+\\\#define NOTE_C1 33
 
-  \#define NOTE_CS1 35
+\\\#define NOTE_CS1 35
 
-  \#define NOTE_D1 37
+\\\#define NOTE_D1 37
 
-  \#define NOTE_DS1 39
+\\\#define NOTE_DS1 39
 
-  \#define NOTE_E1 41
+\\\#define NOTE_E1 41
 
-  \#define NOTE_F1 44
+\\\#define NOTE_F1 44
 
-  \#define NOTE_FS1 46
+\\\#define NOTE_FS1 46
 
-  \#define NOTE_G1 49
+\\\#define NOTE_G1 49
 
-  \#define NOTE_GS1 52
+\\\#define NOTE_GS1 52
 
-  \#define NOTE_A1 55
+\\\#define NOTE_A1 55
 
-  \#define NOTE_AS1 58
+\\\#define NOTE_AS1 58
 
-  \#define NOTE_B1 62
+\\\#define NOTE_B1 62
 
-  \#define NOTE_C2 65
+\\\#define NOTE_C2 65
 
-  \#define NOTE_CS2 69
+\\\#define NOTE_CS2 69
 
-  \#define NOTE_D2 73
+\\\#define NOTE_D2 73
 
-  \#define NOTE_DS2 78
+\\\#define NOTE_DS2 78
 
-  \#define NOTE_E2 82
+\\\#define NOTE_E2 82
 
-  \#define NOTE_F2 87
+\\\#define NOTE_F2 87
 
-  \#define NOTE_FS2 93
+\\\#define NOTE_FS2 93
 
-  \#define NOTE_G2 98
+\\\#define NOTE_G2 98
 
-  \#define NOTE_GS2 104
+\\\#define NOTE_GS2 104
 
-  \#define NOTE_A2 110
+\\\#define NOTE_A2 110
 
-  \#define NOTE_AS2 117
+\\\#define NOTE_AS2 117
 
-  \#define NOTE_B2 123
+\\\#define NOTE_B2 123
 
-  \#define NOTE_C3 131
+\\\#define NOTE_C3 131
 
-  \#define NOTE_CS3 139
+\\\#define NOTE_CS3 139
 
-  \#define NOTE_D3 147
+\\\#define NOTE_D3 147
 
-  \#define NOTE_DS3 156
+\\\#define NOTE_DS3 156
 
-  \#define NOTE_E3 165
+\\\#define NOTE_E3 165
 
-  \#define NOTE_F3 175
+\\\#define NOTE_F3 175
 
-  \#define NOTE_FS3 185
+\\\#define NOTE_FS3 185
 
-  \#define NOTE_G3 196
+\\\#define NOTE_G3 196
 
-  \#define NOTE_GS3 208
+\\\#define NOTE_GS3 208
 
-  \#define NOTE_A3 220
+\\\#define NOTE_A3 220
 
-  \#define NOTE_AS3 233
+\\\#define NOTE_AS3 233
 
-  \#define NOTE_B3 247
+\\\#define NOTE_B3 247
 
-  \#define NOTE_C4 262
+\\\#define NOTE_C4 262
 
-  \#define NOTE_CS4 277
+\\\#define NOTE_CS4 277
 
-  \#define NOTE_D4 294
+\\\#define NOTE_D4 294
 
-  \#define NOTE_DS4 311
+\\\#define NOTE_DS4 311
 
-  \#define NOTE_E4 330
+\\\#define NOTE_E4 330
 
-  \#define NOTE_F4 349
+\\\#define NOTE_F4 349
 
-  \#define NOTE_FS4 370
+\\\#define NOTE_FS4 370
 
-  \#define NOTE_G4 392
+\\\#define NOTE_G4 392
 
-  \#define NOTE_GS4 415
+\\\#define NOTE_GS4 415
 
-  \#define NOTE_A4 440
+\\\#define NOTE_A4 440
 
-  \#define NOTE_AS4 466
+\\\#define NOTE_AS4 466
 
-  \#define NOTE_B4 494
+\\\#define NOTE_B4 494
 
-  \#define NOTE_C5 523
+\\\#define NOTE_C5 523
 
-  \#define NOTE_CS5 554
+\\\#define NOTE_CS5 554
 
-  \#define NOTE_D5 587
+\\\#define NOTE_D5 587
 
-  \#define NOTE_DS5 622
+\\\#define NOTE_DS5 622
 
-  \#define NOTE_E5 659
+\\\#define NOTE_E5 659
 
-  \#define NOTE_F5 698
+\\\#define NOTE_F5 698
 
-  \#define NOTE_FS5 740
+\\\#define NOTE_FS5 740
 
-  \#define NOTE_G5 784
+\\\#define NOTE_G5 784
 
-  \#define NOTE_GS5 831
+\\\#define NOTE_GS5 831
 
-  \#define NOTE_A5 880
+\\\#define NOTE_A5 880
 
-  \#define NOTE_AS5 932
+\\\#define NOTE_AS5 932
 
-  \#define NOTE_B5 988
+\\\#define NOTE_B5 988
 
-  \#define NOTE_C6 1047
+\\\#define NOTE_C6 1047
 
-  \#define NOTE_CS6 1109
+\\\#define NOTE_CS6 1109
 
-  \#define NOTE_D6 1175
+\\\#define NOTE_D6 1175
 
-  \#define NOTE_DS6 1245
+\\\#define NOTE_DS6 1245
 
-  \#define NOTE_E6 1319
+\\\#define NOTE_E6 1319
 
-  \#define NOTE_F6 1397
+\\\#define NOTE_F6 1397
 
-  \#define NOTE_FS6 1480
+\\\#define NOTE_FS6 1480
 
-  \#define NOTE_G6 1568
+\\\#define NOTE_G6 1568
 
-  \#define NOTE_GS6 1661
+\\\#define NOTE_GS6 1661
 
-  \#define NOTE_A6 1760
+\\\#define NOTE_A6 1760
 
-  \#define NOTE_AS6 1865
+\\\#define NOTE_AS6 1865
 
-  \#define NOTE_B6 1976
+\\\#define NOTE_B6 1976
 
-  \#define NOTE_C7 2093
+\\\#define NOTE_C7 2093
 
-  \#define NOTE_CS7 2217
+\\\#define NOTE_CS7 2217
 
-  \#define NOTE_D7 2349
+\\\#define NOTE_D7 2349
 
-  \#define NOTE_DS7 2489
+\\\#define NOTE_DS7 2489
 
-  \#define NOTE_E7 2637
+\\\#define NOTE_E7 2637
 
-  \#define NOTE_F7 2794
+\\\#define NOTE_F7 2794
 
-  \#define NOTE_FS7 2960
+\\\#define NOTE_FS7 2960
 
-  \#define NOTE_G7 3136
+\\\#define NOTE_G7 3136
 
-  \#define NOTE_GS7 3322
+\\\#define NOTE_GS7 3322
 
-  \#define NOTE_A7 3520
+\\\#define NOTE_A7 3520
 
-  \#define NOTE_AS7 3729
+\\\#define NOTE_AS7 3729
 
-  \#define NOTE_B7 3951
+\\\#define NOTE_B7 3951
 
-  \#define NOTE_C8 4186
+\\\#define NOTE_C8 4186
 
-  \#define NOTE_CS8 4435
+\\\#define NOTE_CS8 4435
 
-  \#define NOTE_D8 4699
+\\\#define NOTE_D8 4699
 
-  \#define NOTE_DS8 4978
+\\\#define NOTE_DS8 4978
 
-  \#define REST 0
+\\\#define REST 0
 
-  // change this to make the song slower or faster
+// change this to make the song slower or faster
 
-  int tempo=114;
+int tempo=114;
 
-  // change this to whichever pin you want to use
+// change this to whichever pin you want to use
 
-  int buzzer = 4;
+int buzzer = 4;
 
-  // notes of the moledy followed by the duration.
+// notes of the moledy followed by the duration.
 
-  // a 4 means a quarter note, 8 an eighteenth , 16 sixteenth, so on
+// a 4 means a quarter note, 8 an eighteenth , 16 sixteenth, so on
 
-  // !!negative numbers are used to represent dotted notes,
+// !!negative numbers are used to represent dotted notes,
 
-  // so -4 means a dotted quarter note, that is, a quarter plus an eighteenth!!
+// so -4 means a dotted quarter note, that is, a quarter plus an eighteenth!!
 
-  int melody[] = {
+int melody[] = {
 
-  NOTE_E4,4, NOTE_E4,4, NOTE_F4,4, NOTE_G4,4,//1
+NOTE_E4,4, NOTE_E4,4, NOTE_F4,4, NOTE_G4,4,//1
 
-  NOTE_G4,4, NOTE_F4,4, NOTE_E4,4, NOTE_D4,4,
+NOTE_G4,4, NOTE_F4,4, NOTE_E4,4, NOTE_D4,4,
 
-  NOTE_C4,4, NOTE_C4,4, NOTE_D4,4, NOTE_E4,4,
+NOTE_C4,4, NOTE_C4,4, NOTE_D4,4, NOTE_E4,4,
 
-  NOTE_E4,-4, NOTE_D4,8, NOTE_D4,2,
+NOTE_E4,-4, NOTE_D4,8, NOTE_D4,2,
 
-  NOTE_E4,4, NOTE_E4,4, NOTE_F4,4, NOTE_G4,4,//4
+NOTE_E4,4, NOTE_E4,4, NOTE_F4,4, NOTE_G4,4,//4
 
-  NOTE_G4,4, NOTE_F4,4, NOTE_E4,4, NOTE_D4,4,
+NOTE_G4,4, NOTE_F4,4, NOTE_E4,4, NOTE_D4,4,
 
-  NOTE_C4,4, NOTE_C4,4, NOTE_D4,4, NOTE_E4,4,
+NOTE_C4,4, NOTE_C4,4, NOTE_D4,4, NOTE_E4,4,
 
-  NOTE_D4,-4, NOTE_C4,8, NOTE_C4,2,
+NOTE_D4,-4, NOTE_C4,8, NOTE_C4,2,
 
-  NOTE_D4,4, NOTE_D4,4, NOTE_E4,4, NOTE_C4,4,//8
+NOTE_D4,4, NOTE_D4,4, NOTE_E4,4, NOTE_C4,4,//8
 
-  NOTE_D4,4, NOTE_E4,8, NOTE_F4,8, NOTE_E4,4, NOTE_C4,4,
+NOTE_D4,4, NOTE_E4,8, NOTE_F4,8, NOTE_E4,4, NOTE_C4,4,
 
-  NOTE_D4,4, NOTE_E4,8, NOTE_F4,8, NOTE_E4,4, NOTE_D4,4,
+NOTE_D4,4, NOTE_E4,8, NOTE_F4,8, NOTE_E4,4, NOTE_D4,4,
 
-  NOTE_C4,4, NOTE_D4,4, NOTE_G3,2,
+NOTE_C4,4, NOTE_D4,4, NOTE_G3,2,
 
-  NOTE_E4,4, NOTE_E4,4, NOTE_F4,4, NOTE_G4,4,//12
+NOTE_E4,4, NOTE_E4,4, NOTE_F4,4, NOTE_G4,4,//12
 
-  NOTE_G4,4, NOTE_F4,4, NOTE_E4,4, NOTE_D4,4,
+NOTE_G4,4, NOTE_F4,4, NOTE_E4,4, NOTE_D4,4,
 
-  NOTE_C4,4, NOTE_C4,4, NOTE_D4,4, NOTE_E4,4,
+NOTE_C4,4, NOTE_C4,4, NOTE_D4,4, NOTE_E4,4,
 
-  NOTE_D4,-4, NOTE_C4,8, NOTE_C4,2
+NOTE_D4,-4, NOTE_C4,8, NOTE_C4,2
 
-  };
+};
 
-  // sizeof gives the number of bytes, each int value is composed of two bytes (16
-  bits)
+// sizeof gives the number of bytes, each int value is composed of two bytes (16
 
-  // there are two values per note (pitch and duration), so for each note there
-  are four bytes
+bits)
 
-  int notes=sizeof(melody)/sizeof(melody[0])/2;
+// there are two values per note (pitch and duration), so for each note there
 
-  // this calculates the duration of a whole note in ms (60s/tempo)4 beats
+are four bytes
 
-  int wholenote = (60000 4) / tempo;
+int notes=sizeof(melody)/sizeof(melody[0])/2;
 
-  int divider = 0, noteDuration = 0;
+// this calculates the duration of a whole note in ms (60s/tempo)4 beats
 
-  void setup() {
+int wholenote = (60000 4) / tempo;
 
-  // iterate over the notes of the melody.
+int divider = 0, noteDuration = 0;
 
-  // Remember, the array is twice the number of notes (notes + durations)
+void setup() {
 
-  for (int thisNote = 0; thisNote \< notes 2; thisNote = thisNote + 2) {
+// iterate over the notes of the melody.
 
-  // calculates the duration of each note
+// Remember, the array is twice the number of notes (notes + durations)
 
-  divider = melody[thisNote + 1];
+for (int thisNote = 0; thisNote \\\< notes 2; thisNote = thisNote + 2) {
 
-  if (divider \> 0) {
+// calculates the duration of each note
 
-  // regular note, just proceed
+divider = melody[thisNote + 1];
 
-  noteDuration = (wholenote) / divider;
+if (divider \\\> 0) {
 
-  } else if (divider \< 0) {
+// regular note, just proceed
 
-  // dotted notes are represented with negative durations!!
+noteDuration = (wholenote) / divider;
 
-  noteDuration = (wholenote) / abs(divider);
+} else if (divider \\\< 0) {
 
-  noteDuration = 1.5; // increases the duration in half for dotted notes
+// dotted notes are represented with negative durations!!
 
-  }
+noteDuration = (wholenote) / abs(divider);
 
-  // we only play the note for 90% of the duration, leaving 10% as a pause
+noteDuration = 1.5; // increases the duration in half for dotted notes
 
-  tone(buzzer, melody[thisNote], noteDuration0.9);
+}
 
-  // Wait for the specief duration before playing the next note.
+// we only play the note for 90% of the duration, leaving 10% as a pause
 
-  delay(noteDuration);
+tone(buzzer, melody[thisNote], noteDuration0.9);
 
-  // stop the waveform generation before the next note.
+// Wait for the specief duration before playing the next note.
 
-  noTone(buzzer);
+delay(noteDuration);
 
-  }
+// stop the waveform generation before the next note.
 
-  }
+noTone(buzzer);
 
-  void loop() {
+}
 
-  // if you want to repeat the song forever,
+}
 
-  // just paste the setup code here instead.
+void loop() {
 
-  }
+// if you want to repeat the song forever,
 
-  /////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// just paste the setup code here instead.
 
-**Project Result**
+}
+
+/////////////////////////////////////////////////////////////////
+
+Project Result
 
 After uploading the code to the coding box, you can hear the buzzer playing the
 song "Ode to Joy" on the coding box.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 7: Small Desktop Lamp
+Project 7: Small Desktop Lamp
 
 ![](media/971f37ad6c378e7adcec54d53e204165.png)
 
-**Project Introduction**
+Project Introduction
 
 The button switch is an electronic switch. When we press the button, the switch
 function is turned on. When the pressure is removed, the switch is turned off.
@@ -1019,7 +1012,7 @@ In this project, we use a button switch and an LED to make a small desk lamp
 project. Press the button to turn on the LED, and press button to turn off the
 LED.
 
-**Working Principle**
+Working Principle
 
 ![](media/e0e9173ea76d81916e2100c7d874edb3.png)
 
@@ -1032,100 +1025,98 @@ When the normally open contact bears pressure, the circuit is on state ;
 however, when this pressure disappears, the normally open contact goes back to
 initial state, that is, off state. The pressure is the act we switch the button.
 
-**Schematic Diagrams:**
+Schematic Diagrams:
 
 ![C:\\Users\\zuokejian\\AppData\\Local\\Temp\\ksohtml13604\\wps39.png](media/5e42fde9876f9be810d85a7fb8b331f7.png)
 ![C:\\Users\\zuokejian\\AppData\\Local\\Temp\\ksohtml13604\\wps40.png](media/8677548f9e756281629430d66ba3a460.png)
 
-**Circuit Connection**
+Circuit Connection
 
 ![](media/79198b81260eef784162f7c7576d4352.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 7
+Project 7
 
-  Small desktop lamp
+Small desktop lamp
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  volatile int PushCounter;
+volatile int PushCounter;
 
-  volatile int State;
+volatile int State;
 
-  volatile int lastState;
+volatile int lastState;
 
-  int ledpin=7;// initialize pin 7
+int ledpin=7;// initialize pin 7
 
-  int inpin=12;// initialize pin 12
+int inpin=12;// initialize pin 12
 
-  void setup()
+void setup()
 
-  {
+{
 
-  PushCounter = 0;
+PushCounter = 0;
 
-  State = 0;
+State = 0;
 
-  lastState = 0;
+lastState = 0;
 
-  pinMode(ledpin,OUTPUT);// set LED pin as “output”
+pinMode(ledpin,OUTPUT);// set LED pin as “output”
 
-  pinMode(inpin,INPUT);// set button pin as “input”
+pinMode(inpin,INPUT);// set button pin as “input”
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  State = digitalRead(inpin);
+State = digitalRead(inpin);
 
-  if (State != lastState) {
+if (State != lastState) {
 
-  if (State == 1) {
+if (State == 1) {
 
-  PushCounter = PushCounter + 1;
+PushCounter = PushCounter + 1;
 
-  }
+}
 
-  }
+}
 
-  delay(100);
+delay(100);
 
-  lastState = State;
+lastState = State;
 
-  if(PushCounter%2==0)
+if(PushCounter%2==0)
 
-  { digitalWrite(ledpin,HIGH);}
+{ digitalWrite(ledpin,HIGH);}
 
-  else
+else
 
-  { digitalWrite(ledpin,LOW);}
+{ digitalWrite(ledpin,LOW);}
 
-  }
+}
 
-  //////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//////////////////////////////////////////////////////////////////
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, when the button at D12 is pressed
 once, the light at D7 is on;when the button is pressed again, the light at D7
 goes out; the same working situation as the desk lamp.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 8: PIR Motion Alarm
+Project 8: PIR Motion Alarm
 
-**![camtraptions-pir-motion-sensor-review-800x534](media/7f7ae565dcfff72f2669ab77911a4e35.jpeg)**
+![camtraptions-pir-motion-sensor-review-800x534](media/7f7ae565dcfff72f2669ab77911a4e35.jpeg)
 
-**Project Introduction**
+Project Introduction
 
 PIR motion sensor can detect infrared signals from a moving person or moving
 animal, and output switching signals. It can be applied to a variety of
@@ -1135,131 +1126,131 @@ For example, in the corridor at night, the PIR motion sensor senses someone
 going upstairs, and the light turns on automatically, which is not only
 practical but also environmentally friendly.
 
-**PIR Motion Sensor Specification**
+PIR Motion Sensor Specification
 
 ![](media/8ff894d5f9ff1c793a8f4613f6642ab6.png)
 
--   Input Voltage 3.3 \~ 5V (6V Maximum)
+Input Voltage 3.3 \~ 5V (6V Maximum)
 
--   Working Current 15uA
+Working Current 15uA
 
--   Working Temperature -20 \~ 85 ℃
+Working Temperature -20 \~ 85 ℃
 
--   Output Voltage High 3V, Low 0V
+Output Voltage High 3V, Low 0V
 
--   Output Delay Time (High Level) About 2.3 to 3 Seconds
+Output Delay Time (High Level) About 2.3 to 3 Seconds
 
--   Detection Angle 100 °
+Detection Angle 100 °
 
--   Detection Distance 7 meters
+Detection Distance 7 meters
 
--   Output Indicator LED (When output HIGH, it will be ON)
+Output Indicator LED (When output HIGH, it will be ON)
 
--   Pin limit Current 100mA
+Pin limit Current 100mA
 
-**Circuit Connection**
+Circuit Connection
 
 ![](media/6cfa73f2a3b725869081169dd5a6d62d.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 8
+Project 8
 
-  PIR Motion Alarm
+PIR Motion Alarm
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int Sensor_pin = 2; //define pin D2 of PIR sensor
+int Sensor_pin = 2; //define pin D2 of PIR sensor
 
-  int Buzzerpin = 4; //Define the pin D4 of the buzzer
+int Buzzerpin = 4; //Define the pin D4 of the buzzer
 
-  int ledpin =7; //Define the pin D7 of the LED light
+int ledpin =7; //Define the pin D7 of the LED light
 
-  void Alarm() //The buzzer sounds an alarm
+void Alarm() //The buzzer sounds an alarm
 
-  {
+{
 
-  for(int i=0;i\<100;i++)
+for(int i=0;i\\\<100;i++)
 
-  {
+{
 
-  digitalWrite(Buzzerpin,HIGH); //make a sound
+digitalWrite(Buzzerpin,HIGH); //make a sound
 
-  delay(2);
+delay(2);
 
-  digitalWrite(Buzzerpin,LOW); //No sound
+digitalWrite(Buzzerpin,LOW); //No sound
 
-  delay(2); //Modify the delay time, change the sound frequency
+delay(2); //Modify the delay time, change the sound frequency
 
-  }
+}
 
-  }
+}
 
-  void setup()
+void setup()
 
-  {
+{
 
-  pinMode(Sensor_pin,INPUT); //Define PIR sensor interface as input
+pinMode(Sensor_pin,INPUT); //Define PIR sensor interface as input
 
-  pinMode(Buzzerpin,OUTPUT); //Define the buzzer interface as output
+pinMode(Buzzerpin,OUTPUT); //Define the buzzer interface as output
 
-  pinMode(ledpin,OUTPUT); //Define the LED interface as output
+pinMode(ledpin,OUTPUT); //Define the LED interface as output
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  int val=digitalRead(Sensor_pin); //Define the parameter to store the state read
-  by the PIR sensor
+int val=digitalRead(Sensor_pin); //Define the parameter to store the state read
 
-  if(val == 1) //If someone is detected (within the detection range)
+by the PIR sensor
 
-  {
+if(val == 1) //If someone is detected (within the detection range)
 
-  Alarm();//The buzzer sounds an alarm
+{
 
-  digitalWrite(ledpin, HIGH); // LED flashes
+Alarm();//The buzzer sounds an alarm
 
-  delay(10);
+digitalWrite(ledpin, HIGH); // LED flashes
 
-  digitalWrite(ledpin, LOW);
+delay(10);
 
-  delay(10);
+digitalWrite(ledpin, LOW);
 
-  }
+delay(10);
 
-  else//If no person is detected
+}
 
-  {
+else//If no person is detected
 
-  return;
+{
 
-  }
+return;
 
-  delay(100); //delay 100 milliseconds
+}
 
-  }
+delay(100); //delay 100 milliseconds
+
+}
+
 //////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Project Result**
+Project Result
 
 Uploading the code to the coding box, when the human infrared sensor detects
 people moving nearby,the LED starts flashing, the buzzer sounds. If no one is
 detected nearby, the LED is off and the buzzer does not sound.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 9: Reed switch
+Project 9: Reed switch
 
-**Project Introduction**
+Project Introduction
 
 Reed switch is basically an electrical switch which is operated when a magnetic
 field is brought near to it. It is made up of two small metal pieces kept inside
@@ -1271,7 +1262,7 @@ magnetic field around the switch.
 Reed switch is used in many of the real-life applications such as magnetic door
 switch, laptops, smart phones etc.
 
-**Sensor Specification**
+Sensor Specification
 
 There are two types of reed switch.
 
@@ -1292,69 +1283,67 @@ other particles. Reed switch can be operated in any environment such as
 environment where flammable gas is present or environment where corrosion would
 affect open switch contacts.
 
-**Circuit Connection**
+Circuit Connection
 
 ![](media/75dd64e945ebe0a77ca1c7146d7abad0.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 9
+Project 9
 
-  Reed switch
+Reed switch
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int LED = 7;
+int LED = 7;
 
-  int reed_switch = A0;
+int reed_switch = A0;
 
-  int reed_status;
+int reed_status;
 
-  void setup()
+void setup()
 
-  {
+{
 
-  pinMode(LED, OUTPUT);
+pinMode(LED, OUTPUT);
 
-  pinMode(reed_switch, INPUT);
+pinMode(reed_switch, INPUT);
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  reed_status = digitalRead(reed_switch);
+reed_status = digitalRead(reed_switch);
 
-  if (reed_status == 1)
+if (reed_status == 1)
 
-  digitalWrite(LED, LOW);
+digitalWrite(LED, LOW);
 
-  else
+else
 
-  digitalWrite(LED, HIGH);
+digitalWrite(LED, HIGH);
 
-  }
+}
 
-  //////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//////////////////////////////////////////////////////////
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, when the magnetic reed detects
 nearby magnetic force, the LED lights up. If no magnetic force is detected, the
 LED is off.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 10: DC motor
+Project 10: DC motor
 
-**Project Introduction**
+Project Introduction
 
 With this coding box, we can make our own adjustable fan.Usually a simple
 electric fan is made up of blade, motor and switch. You can see a motor fan
@@ -1363,7 +1352,7 @@ If there is electricity, the fan blade will rotate. The motor with the fan blade
 is also called a fan module. Inputting HIGH or LOW level to two pins of fan
 module, we can make fan rotate.
 
-**Connection Diagram**
+Connection Diagram
 
 So set to D10, LOW; D11 to HIGH. Upload the code and motor fan will turn
 clockwise.
@@ -1381,79 +1370,77 @@ We can adjust the motor’s speed via PWM pins.
 
 ![](media/88f79c2f9ac0e6446c595abcb5fc8292.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 10
+Project 10
 
-  small fan
+small fan
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  // the setup function runs once when you press reset or power the board
+// the setup function runs once when you press reset or power the board
 
-  void setup() {
+void setup() {
 
-  // initialize digital pin 10 11 as output.
+// initialize digital pin 10 11 as output.
 
-  pinMode(10, OUTPUT);
+pinMode(10, OUTPUT);
 
-  pinMode(11, OUTPUT);
+pinMode(11, OUTPUT);
 
-  digitalWrite(10, LOW);
+digitalWrite(10, LOW);
 
-  digitalWrite(11, LOW);
+digitalWrite(11, LOW);
 
-  }
+}
 
-  // the loop function runs over and over again forever
+// the loop function runs over and over again forever
 
-  void loop() {
+void loop() {
 
-  analogWrite(10, 150);
+analogWrite(10, 150);
 
-  digitalWrite(11, LOW);
+digitalWrite(11, LOW);
 
-  delay(1000);
+delay(1000);
 
-  digitalWrite(10, LOW);
+digitalWrite(10, LOW);
 
-  digitalWrite(11, LOW);
+digitalWrite(11, LOW);
 
-  delay(3000);
+delay(3000);
 
-  digitalWrite(10, LOW);
+digitalWrite(10, LOW);
 
-  analogWrite(11, 150);
+analogWrite(11, 150);
 
-  delay(1000);
+delay(1000);
 
-  digitalWrite(10, LOW);
+digitalWrite(10, LOW);
 
-  digitalWrite(11, LOW);
+digitalWrite(11, LOW);
 
-  delay(3000);
+delay(3000);
 
-  }
+}
 
-  //////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//////////////////////////////////////////////////////////
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, the motor on the coding box rotates
 clockwise for 1 second, with a delay of 3 seconds.Then turn counterclockwise for
 1 second, delay 3 seconds, and loop.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 11: Servo
+Project 11: Servo
 
-**Project Introduction**
+Project Introduction
 
 Servo is a position (angle) servo drive, which is suitable for those control
 systems that require constant angle changes and can be maintained. It has been
@@ -1463,7 +1450,7 @@ remote control robots.
 In this project, we use the servo rotation angle change to DIY a car speed dial.
 You can intuitively understand the servo's movement trajectory.
 
-**Working Principle**
+Working Principle
 
 ![](media/31414392c8292845f48e1b5b8c2c0d74.png)
 
@@ -1491,76 +1478,74 @@ Brown one is for GND, red one for power positive, orange one for signal line.
 
 ![](media/35084ae289a08e35bdb8c89ceb134ba4.png)
 
-**Connection Diagram**
+Connection Diagram
 
 ![](media/d51ef57ccc6ac4eec305b3caf9b1c52e.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 11
+Project 11
 
-  Servo
+Servo
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<Servo.h\>
+\\\#include \\\<Servo.h\\\>
 
-  Servo myservo;// define servo variable name
+Servo myservo;// define servo variable name
 
-  void setup()
+void setup()
 
-  {
+{
 
-  myservo.attach(9);// select servo pin(9 or 10)
+myservo.attach(9);// select servo pin(9 or 10)
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  myservo.write(0);// set rotate angle of the motor
+myservo.write(0);// set rotate angle of the motor
 
-  delay(500);
+delay(500);
 
-  myservo.write(45);// set rotate angle of the motor
+myservo.write(45);// set rotate angle of the motor
 
-  delay(500);
+delay(500);
 
-  myservo.write(90);// set rotate angle of the motor
+myservo.write(90);// set rotate angle of the motor
 
-  delay(500);
+delay(500);
 
-  myservo.write(135);// set rotate angle of the motor
+myservo.write(135);// set rotate angle of the motor
 
-  delay(500);
+delay(500);
 
-  myservo.write(180);// set rotate angle of the motor
+myservo.write(180);// set rotate angle of the motor
 
-  delay(500);
+delay(500);
 
-  }//////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}//////////////////////////////////////////////////////////
 
 Above are the two methods to control the servo. You can choose either one
 according to your liking or actual need.
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, the servo rotates, the angle starts
 from 0°, increases by 45° every 0.5 seconds, and when it reaches 180°, it turns
 to the 0° position.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 12: Potentiometer
+Project 12: Potentiometer
 
-**Project Introduction**
+Project Introduction
 
 The potentiometer is an electronic component that we are very familiar with. It
 is an analog component. The switch for adjusting the volume on the electrical
@@ -1571,7 +1556,7 @@ In this project, we are going to learn how to use Arduino to read the value of
 the potentiometer, and then cooperate with the LED light to make a Dimming table
 lamp.
 
-**Features**
+Features
 
 ![](media/c397aba3de644bb70ffa7a9139a5499e.png)
 
@@ -1581,47 +1566,46 @@ temperature. It is an analog electronic component, which has two states of 0 and
 1(high level and low level). The analog quantity is different. Its data state
 presents a linear state such as 1 to 1000.
 
-**Read Values**
+Read Values
 
 We connect the adjustable potentiometer to the analog pin of Arduino to read its
 value. Please refer to the following wiring diagram for wiring.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 12.1
+Project 12.1
 
-  Read Potentiometer value
+Read Potentiometer value
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int potpin=A7;// initialize analog pin A7
+int potpin=A7;// initialize analog pin A7
 
-  int val=0;// define val, assign initial value 0
+int val=0;// define val, assign initial value 0
 
-  void setup()
+void setup()
 
-  {
+{
 
-  Serial.begin(9600);// set baud rate at 9600
+Serial.begin(9600);// set baud rate at 9600
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  val=analogRead(potpin);// read the analog value of analog pin 0, and assign it
-  to val
+val=analogRead(potpin);// read the analog value of analog pin 0, and assign it
 
-  Serial.println(val);// display val’s value
+to val
 
-  }
+Serial.println(val);// display val’s value
 
-  //////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
+
+//////////////////////////////////////////////////////////////////
 
 When you rotate the potentiometer knob, you can see the displayed value change.
 The reading of analog value is a very common function since most sensors output
@@ -1631,7 +1615,7 @@ Below figure shows the analog value it reads.
 
 ![](media/4a9ebc7cfbb70a796224e22d532a0b32.png)
 
-**Circuit Connection**
+Circuit Connection
 
 In the last step, we read the value of the potentiometer, and now we need to
 convert the value of the potentiometer into the brightness of the LED to make a
@@ -1639,66 +1623,66 @@ small desk lamp with adjustable brightness. See the wiring diagram.
 
 ![](media/29214ac4d2209e2e8368d7b232e1e67a.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 12.2
+Project 12.2
 
-  Dimming table lamp
+Dimming table lamp
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int potpin=A7;// initialize analog pin 7
+int potpin=A7;// initialize analog pin 7
 
-  int ledpin=6;//initialize digital pin 6（PWM output）
+int ledpin=6;//initialize digital pin 6（PWM output）
 
-  int val=0;// Temporarily store variables' value from the sensor
+int val=0;// Temporarily store variables' value from the sensor
 
-  void setup()
+void setup()
 
-  {
+{
 
-  pinMode(ledpin,OUTPUT);// define digital pin 6 as “output”
+pinMode(ledpin,OUTPUT);// define digital pin 6 as “output”
 
-  Serial.begin(9600);// set baud rate at 9600
+Serial.begin(9600);// set baud rate at 9600
 
-  // attention: for analog ports, they are automatically set up as “input”
+// attention: for analog ports, they are automatically set up as “input”
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  val=analogRead(potpin);// read the analog value from the sensor and assign it to
-  val
+val=analogRead(potpin);// read the analog value from the sensor and assign it to
 
-  Serial.println(val);// display value of val
+val
 
-  analogWrite(ledpin,val/4);// turn on LED and set up brightness（maximum output
-  of PWM is 255）
+Serial.println(val);// display value of val
 
-  delay(10);// wait for 0.01 second
+analogWrite(ledpin,val/4);// turn on LED and set up brightness（maximum output
 
-  }
+of PWM is 255）
 
-  //////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+delay(10);// wait for 0.01 second
 
-**Project Result**
+}
+
+//////////////////////////////////////////////////////////
+
+Project Result
 
 After uploading the code to the coding box, you can control the brightness of
 the red LED in the RGB through the potentiometer.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 13: Light
+Project 13: Light
 
-**Project Introduction**
+Project Introduction
 
 Photocell is a resistor whose resistance varies from different incident light
 strength. It's based on the photoelectric effect of semiconductor. If the
@@ -1708,7 +1692,7 @@ weak, the resistance increases.
 We use the characteristics of Photocell to make a light-controlled table lamp.
 When the light is dimmed, the light turns on.
 
-**Photocell Little Knowledge**
+Photocell Little Knowledge
 
 ![](media/4f79b3be4e1f694675264534d0d10c74.png)
 
@@ -1729,55 +1713,54 @@ changes. So need to read the analog value. You can refer to the PWM experiment,
 replacing the potentiometer with photocell\`. When there is change in light
 strength, it will make corresponding change on the LED.
 
-**Read Photocell value**
+Read Photocell value
 
 We first use a simple code to read the value of the photocell, print it in the
 serial monitor, and wire it as shown below.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 13.1
+Project 13.1
 
-  Read Photocell value
+Read Photocell value
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int photocellpin=A6;// initialize analog pin 6, connected with photocell
+int photocellpin=A6;// initialize analog pin 6, connected with photocell
 
-  int val=0;// initialize variable va
+int val=0;// initialize variable va
 
-  void setup()
+void setup()
 
-  {
+{
 
-  Serial.begin(9600);// set baud rate at “9600”
+Serial.begin(9600);// set baud rate at “9600”
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  val=analogRead(photocellpin);// read the value of the sensor and assign it to
-  val
+val=analogRead(photocellpin);// read the value of the sensor and assign it to
 
-  Serial.println(val);// display the value of val
+val
 
-  delay(1000);// wait for 1 s
+Serial.println(val);// display the value of val
 
-  }
+delay(1000);// wait for 1 s
 
-  //////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
+
+//////////////////////////////////////////////////////////////////
 
 Upload the code to the PLUS development board, open the serial monitor, and then
 you can read the current photocell value.We put our hands on the photocell, and
 the value became larger.
 
-**Circuit Connection**
+Circuit Connection
 
 We made a small dimming table lamp before, and now we want to make a
 light-controlled small table lamp. The basic principles of the two are the same.
@@ -1786,64 +1769,62 @@ the brightness of the LED.
 
 ![](media/f63dad457067c30c3715c8f56840f99d.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 13.2
+Project 13.2
 
-  Light control LED
+Light control LED
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int potpin=6;// initialize analog pin 6, connected with photocell
+int potpin=6;// initialize analog pin 6, connected with photocell
 
-  int ledpin=5;// initialize digital pin 5,
+int ledpin=5;// initialize digital pin 5,
 
-  int val=0;// initialize variable va
+int val=0;// initialize variable va
 
-  void setup()
+void setup()
 
-  {
+{
 
-  pinMode(ledpin,OUTPUT);// set digital pin 11 as “output”
+pinMode(ledpin,OUTPUT);// set digital pin 11 as “output”
 
-  Serial.begin(9600);// set baud rate at “9600”
+Serial.begin(9600);// set baud rate at “9600”
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  val=analogRead(potpin);// read the value of the sensor and assign it to val
+val=analogRead(potpin);// read the value of the sensor and assign it to val
 
-  Serial.println(val);// display the value of val
+Serial.println(val);// display the value of val
 
-  analogWrite(ledpin,val/4);// set up brightness（maximum value 255）
+analogWrite(ledpin,val/4);// set up brightness（maximum value 255）
 
-  delay(10);// wait for 0.01s
+delay(10);// wait for 0.01s
 
-  }
+}
 
-  //////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//////////////////////////////////////////////////////////////////
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, the photoresistor can detect the
 intensity of the light. The brighter the light, the brighter the red LED in RGB.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 14: Sound
+Project 14: Sound
 
 ![1_LMeN7c8posQaB9PuPh5kCA](media/091c437f01ef19cbfe66c1cb3be2c989.png)
 
-**Project Introduction**
+Project Introduction
 
 The sound sensor is a common sensor. It has a built-in capacitive electret
 microphone and power amplifier. It can be used to detect the sound intensity of
@@ -1852,7 +1833,7 @@ the environment.
 In this project, we use a sound sensor and a DC motor to make a voice-activated
 smart fan. When we make a sound, the fan starts.
 
-**Sound Sensor**
+Sound Sensor
 
 Sound sensor is typically used in detecting the loudness in ambient environment.
 The Arduino can collect its output signal by analog input interface.
@@ -1864,139 +1845,135 @@ adjust the signal gain.
 It also has a fixed hole so that you can mount the sensor on any other devices.
 You can use it to make some interactive work, such as a voice operated switch.
 
-**Read Sound Sensor Value**
+Read Sound Sensor Value
 
 We first use a simple code to read the value of the sound sensor, print it in
 the serial monitor, and wire it as shown below.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 14.1
+Project 14.1
 
-  Read Sound Sensor value
+Read Sound Sensor value
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int soundpin=A2;// initialize analog pin 2, connected with sound sensor
+int soundpin=A2;// initialize analog pin 2, connected with sound sensor
 
-  int val=0;// initialize variable va
+int val=0;// initialize variable va
 
-  void setup()
+void setup()
 
-  {
+{
 
-  Serial.begin(9600);// set baud rate at “9600”
+Serial.begin(9600);// set baud rate at “9600”
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  val=analogRead(soundpin);// read the value of the sensor and assign it to val
+val=analogRead(soundpin);// read the value of the sensor and assign it to val
 
-  Serial.println(val);// display the value of val
+Serial.println(val);// display the value of val
 
-  delay(1000);// wait for 1 s
+delay(1000);// wait for 1 s
 
-  }
+}
 
-  //////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//////////////////////////////////////////////////////////////////
 
 Upload the code to the PLUS development board, open the serial monitor, blow or
 clap your hands at the sensor, you can see the sensor's value changes
 significantly.
 
-**Connection Diagram**
+Connection Diagram
 
 Next, we formally enter this project. We use a sound sensor and a small motor to
 make a sound-activated fan. Connect to the circuit diagram below.
 
 ![](media/51921060e78cb53d13d6448ad1d11643.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 14.2
+Project 14.2
 
-  Voice-activated smart fan
+Voice-activated smart fan
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  void setup() {
+void setup() {
 
-  Serial.begin(9600);
+Serial.begin(9600);
 
-  // initialize digital pin 10 11 as output.
+// initialize digital pin 10 11 as output.
 
-  pinMode(10, OUTPUT);
+pinMode(10, OUTPUT);
 
-  pinMode(11, OUTPUT);
+pinMode(11, OUTPUT);
 
-  digitalWrite(10, LOW);
+digitalWrite(10, LOW);
 
-  digitalWrite(11, LOW);
+digitalWrite(11, LOW);
 
-  }
+}
 
-  void loop() {
+void loop() {
 
-  int Soundvalue = analogRead(A2); // read the input analog value
+int Soundvalue = analogRead(A2); // read the input analog value
 
-  Serial.println(Soundvalue);
+Serial.println(Soundvalue);
 
-  if(Soundvalue\>650)
+if(Soundvalue\\\>650)
 
-  {
+{
 
-  analogWrite(10, 150);
+analogWrite(10, 150);
 
-  digitalWrite(11, LOW);
+digitalWrite(11, LOW);
 
-  delay(1000);
+delay(1000);
 
-  }
+}
 
-  else{
+else{
 
-  digitalWrite(10, LOW);
+digitalWrite(10, LOW);
 
-  digitalWrite(11, LOW);
+digitalWrite(11, LOW);
 
-  }
+}
 
-  }
+}
 
-  //////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//////////////////////////////////////////////////////////
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box. success, the microphone sensor can
 detect the sound. When the value of the sound is greater than 650, the motor fan
 starts to rotate. If it does not reach 650, the motor fan does not rotate.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 15: Gas Sensor
+Project 15: Gas Sensor
 
 ![How-to-Detect-and-Prevent-a-Gas-Leak-in-Your-House-Cover-27-03](media/2ab7d4af7c4d7a56c8ce48b8bbb177b5.jpeg)
 
-**Project Introduction**
+Project Introduction
 
 MQ-2 Gas Sensor module is useful for gas leakage detecting in homes and
 industries. It can detect LPG, i-butane, propane, methane, alcohol, hydrogen and
 smoke.
 
-**Sensor Specification**
+Sensor Specification
 
 Whenever the concentration of gas increases the resistance will decrease (but
 the current flow will get increased). It leads to change in voltage and it is
@@ -2011,100 +1988,98 @@ reaches the threshold, it will produce the output signal at D0 Pin.
 Note: All MQ Sensor takes some time to work properly because of the Heater needs
 to be heated for a while.
 
-**Circuit Connection**
+Circuit Connection
 
 ![](media/8239b20946f446ba87d8590747d872c2.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 15
+Project 15
 
-  Gas Sensor
+Gas Sensor
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int redLed = 6;
+int redLed = 6;
 
-  int greenLed = 5;
+int greenLed = 5;
 
-  int buzzer = 4;
+int buzzer = 4;
 
-  int smokeA0 = A1;
+int smokeA0 = A1;
 
-  // Enter Your threshold value
+// Enter Your threshold value
 
-  int sensorThres = 400;
+int sensorThres = 400;
 
-  void setup() {
+void setup() {
 
-  pinMode(redLed, OUTPUT);
+pinMode(redLed, OUTPUT);
 
-  pinMode(greenLed, OUTPUT);
+pinMode(greenLed, OUTPUT);
 
-  pinMode(buzzer, OUTPUT);
+pinMode(buzzer, OUTPUT);
 
-  pinMode(smokeA0, INPUT);
+pinMode(smokeA0, INPUT);
 
-  Serial.begin(9600);
+Serial.begin(9600);
 
-  }
+}
 
-  void loop() {
+void loop() {
 
-  int analogSensor = analogRead(smokeA0);
+int analogSensor = analogRead(smokeA0);
 
-  Serial.print("Sensor Value from A0: ");
+Serial.print("Sensor Value from A0: ");
 
-  Serial.println(analogSensor);
+Serial.println(analogSensor);
 
-  // Checks if it has reached the threshold value
+// Checks if it has reached the threshold value
 
-  if (analogSensor \> sensorThres)
+if (analogSensor \\\> sensorThres)
 
-  {
+{
 
-  digitalWrite(redLed, HIGH);
+digitalWrite(redLed, HIGH);
 
-  digitalWrite(greenLed, LOW);
+digitalWrite(greenLed, LOW);
 
-  tone(buzzer, 1000, 200);
+tone(buzzer, 1000, 200);
 
-  }
+}
 
-  else
+else
 
-  {
+{
 
-  digitalWrite(redLed, LOW);
+digitalWrite(redLed, LOW);
 
-  digitalWrite(greenLed, HIGH);
+digitalWrite(greenLed, HIGH);
 
-  noTone(buzzer);
+noTone(buzzer);
 
-  }
+}
 
-  delay(100);
+delay(100);
 
-  }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, the gas sensor can detect
 combustible gas. After detecting combustible gas, the buzzer will issue an alarm
 and the light on RGB will be red. If no combustible gas is detected, the buzzer
 will not make a sound, and the light on it lights up green.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 16: Temperature Tester
+Project 16: Temperature Tester
 
-**Project Introduction**
+Project Introduction
 
 LM35 is a common and easy-to-use temperature sensor. It does not require other
 hardware. You just need an analog port to make it work. The difficulty lies in
@@ -2115,7 +2090,7 @@ In this project, we use a temperature sensor and 3 LED lights to DIY a
 temperature tester. When the temperature sensor touches different temperature
 objects, the LED lights will show different colors.
 
-**Working Principle**
+Working Principle
 
 ![](media/76878aea4729cadcac4feeba637715fc.png)
 
@@ -2134,7 +2109,7 @@ The output temperature is 0℃～100℃, the conversion formula is as follows:
 
 ![C:\\Users\\zuokejian\\AppData\\Local\\Temp\\ksohtml13604\\wps55.jpg](media/0dfa07fa69f2a98658a3822c2da93bf7.jpeg)
 
-**Read temperature value**
+Read temperature value
 
 We first use a simple code to read the value of the temperature sensor, print it
 in the serial monitor, and wire it as shown below.
@@ -2142,54 +2117,52 @@ in the serial monitor, and wire it as shown below.
 Here, LM35 output is given to analog pin A0 of Plus board. This analog voltage
 is converted to its digital form and processed to get the temperature reading.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 16.1
+Project 16.1
 
-  Read temperature value
+Read temperature value
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  void setup()
+void setup()
 
-  {
+{
 
-  Serial.begin(9600);//Set Baud Rate to 9600 bps
+Serial.begin(9600);//Set Baud Rate to 9600 bps
 
-  }
+}
 
-  void loop()
+void loop()
 
-  { unsigned int val;
+{ unsigned int val;
 
-  unsigned int dat;
+unsigned int dat;
 
-  val=analogRead(3);//Connect LM35 on Analog 3
+val=analogRead(3);//Connect LM35 on Analog 3
 
-  dat=(500 val) /1024;
+dat=(500 val) /1024;
 
-  Serial.print("Temp:"); //Display the temperature on Serial monitor
+Serial.print("Temp:"); //Display the temperature on Serial monitor
 
-  Serial.print(dat);
+Serial.print(dat);
 
-  Serial.println("C");
+Serial.println("C");
 
-  delay(500);
+delay(500);
 
-  }
+}
 
-  //////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//////////////////////////////////////////////////////////////////
 
 Upload the code to the PLUS development board, open the serial monitor, and then
 you can read the current temperature value.
 
 ![](media/ac4145de63deb88c831cc8f1acda5cb7.png)
 
-**Circuit Connection**
+Circuit Connection
 
 Now use the LM35 temperature sensor and 3 LEDs to do a temperature tester. When
 the temperature tester senses different temperatures, different LEDs will light
@@ -2197,93 +2170,91 @@ up. Follow the diagram below for wiring.
 
 ![](media/a9ea944c4dcae4dacb0f547f6babf5f5.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 16.2
+Project 16.2
 
-  Temperature tester
+Temperature tester
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  int redpin = 6; //select the pin for the red LED
+int redpin = 6; //select the pin for the red LED
 
-  int greenpin =5;// select the pin for the green LED
+int greenpin =5;// select the pin for the green LED
 
-  int bluepin =3; // select the pin for the blue LED
+int bluepin =3; // select the pin for the blue LED
 
-  void setup()
+void setup()
 
-  {
+{
 
-  pinMode(redpin, OUTPUT);
+pinMode(redpin, OUTPUT);
 
-  pinMode(bluepin, OUTPUT);
+pinMode(bluepin, OUTPUT);
 
-  pinMode(greenpin, OUTPUT);
+pinMode(greenpin, OUTPUT);
 
-  Serial.begin(9600);//Set Baud Rate to 9600 bps
+Serial.begin(9600);//Set Baud Rate to 9600 bps
 
-  }
+}
 
-  void loop()
+void loop()
 
-  { unsigned int val;
+{ unsigned int val;
 
-  unsigned int dat;
+unsigned int dat;
 
-  val=analogRead(3);//Connect LM35 on Analog 3
+val=analogRead(3);//Connect LM35 on Analog 3
 
-  dat=(500 val) /1024;
+dat=(500 val) /1024;
 
-  Serial.print("Temp:"); //Display the temperature on Serial monitor
+Serial.print("Temp:"); //Display the temperature on Serial monitor
 
-  Serial.print(dat);
+Serial.print(dat);
 
-  Serial.println("C");
+Serial.println("C");
 
-  if (dat \>= 50) {
+if (dat \\\>= 50) {
 
-  digitalWrite(greenpin, LOW);
+digitalWrite(greenpin, LOW);
 
-  digitalWrite(bluepin, LOW);
+digitalWrite(bluepin, LOW);
 
-  digitalWrite(redpin, HIGH);
+digitalWrite(redpin, HIGH);
 
-  }
+}
 
-  else if (dat \>= 30 && dat \< 50) {
+else if (dat \\\>= 30 && dat \\\< 50) {
 
-  digitalWrite(greenpin, LOW);
+digitalWrite(greenpin, LOW);
 
-  digitalWrite(bluepin, HIGH);
+digitalWrite(bluepin, HIGH);
 
-  digitalWrite(redpin, LOW);
+digitalWrite(redpin, LOW);
 
-  }
+}
 
-  else {
+else {
 
-  digitalWrite(greenpin, HIGH);
+digitalWrite(greenpin, HIGH);
 
-  digitalWrite(bluepin, LOW);
+digitalWrite(bluepin, LOW);
 
-  digitalWrite(redpin, LOW);
+digitalWrite(redpin, LOW);
 
-  }
+}
 
-  delay(200);
+delay(200);
 
-  }
+}
 
-  //////////////////////////////////////////////////////////////////
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//////////////////////////////////////////////////////////////////
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, the temperature sensor can detect
 the outside temperature.
@@ -2298,13 +2269,13 @@ When the temperature is less than 30°C, the RGB LED lights up blue,
 
 You can use this item to make a temperature reminder water cup.
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 17 Turns An LED On\*\*
+Project 17 Turns An LED On\*\*
 
 ![display](media/6c46b8b2c64c8a5b6f7a266636fdea42.gif)
 
-**Project Introduction**
+Project Introduction
 
 Dot matrices seem to be very unfamiliar, but in fact it is everywhere in our
 lives. It is widely used in some outdoor billboards, game consoles, and
@@ -2325,11 +2296,11 @@ matrix screen.
 Now we are about to start many 88 dot matrix projects. Firstly, let’s turn on a
 led on the dot matrix.
 
-**Project Circuit：**
+Project Circuit：
 
 ![](media/2384c86c773949b0dc420b3258eecae8.jpeg)
 
-**Project Principle：**
+Project Principle：
 
 The theory behind the 88 dot matrix is quite simple. It is driven by the chip
 HT16K33 of the micro-controller. It has 64 LEDs, sitting in 8 rows and 8
@@ -2350,57 +2321,55 @@ According to coordinate system created, the red spot in the above picture can be
 recorded as (3,2). Then we integrate its position into the code to write the
 following code.
 
-**Project Code：**
+Project Code：
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 17
+Project 17
 
-  88 dot matrix-turn on a LED
+88 dot matrix-turn on a LED
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<ks_Matrix.h\>
+\\\#include \\\<ks_Matrix.h\\\>
 
-  Matrix myMatrix(A4,A5);
+Matrix myMatrix(A4,A5);
 
-  void setup() {
+void setup() {
 
-  myMatrix.begin(112);
+myMatrix.begin(112);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  }
+}
 
-  void loop() {
+void loop() {
 
-  myMatrix.drawPixel(3,2,HIGH);
+myMatrix.drawPixel(3,2,HIGH);
 
-  myMatrix.writeDisplay();
+myMatrix.writeDisplay();
 
-  }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
 
-**Project Result:**
+Project Result:
 
 Upload the code to the coding box successfully, the LED dot matrix will display
 the required LED as shown in the figure below.
 
 ![](media/b2bcf53e6b85799f0ff386926ee9e9b1.png)
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 18 Turn On A Line\*\*
+Project 18 Turn On A Line\*\*
 
-**Project Introduction**
+Project Introduction
 
 In the previous project, we have turned on one LED while in this lesson we will
 light a row of LEDs, that’s 8 LEDs.
 
-**Project Principle：**
+Project Principle：
 
 ![](media/f7caad68f25ee81befe1ae601374cf81.png)
 
@@ -2413,63 +2382,61 @@ input the position of the starting and ending points of this a row of LEDs.
 From the figure above, it is clear that the starting point of this line is (0,5)
 and the ending point is (7,5). Then we log them and place them into the code.
 
-**Project Code：**
+Project Code：
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 18
+Project 18
 
-  88 dot matrix-turn on a line
+88 dot matrix-turn on a line
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<ks_Matrix.h\>
+\\\#include \\\<ks_Matrix.h\\\>
 
-  Matrix myMatrix(A4,A5);
+Matrix myMatrix(A4,A5);
 
-  void setup()
+void setup()
 
-  {
+{
 
-  myMatrix.begin(112);
+myMatrix.begin(112);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  myMatrix.drawLine(0, 5, 7, 5, HIGH);
+myMatrix.drawLine(0, 5, 7, 5, HIGH);
 
-  myMatrix.writeDisplay();
+myMatrix.writeDisplay();
 
-  }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
 
-**Project Result:**
+Project Result:
 
 Upload the code to the coding box successfully, the LED dot matrix will display
 as shown in the figure below.
 
 ![](media/cf49523bcce956ab4fad4cb4ff0dc9f3.jpeg)
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 19 Display A Rectangle
+Project 19 Display A Rectangle
 
-**Project Introduction**
+Project Introduction
 
 Are you getting more excited about our next project?
 
 This time, we intend to make it more challenging and let the matrix display a
 rectangle.
 
-**Project Principle：**
+Project Principle：
 
 ![](media/ee416b6769c80a7821a5126df4fc4d2b.png)
 
@@ -2491,55 +2458,53 @@ the position value of this point. Therefore, for this rectangle, it is
 (1,2,6,4). Likewise, if we use this blue sport as a starting point to achieve a
 square with the dimension of 44, it is (1,2,4,4).
 
-**Project Code：**
+Project Code：
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 19
+Project 19
 
-  88 dot matrix-turn on a rectangle
+88 dot matrix-turn on a rectangle
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<ks_Matrix.h\>
+\\\#include \\\<ks_Matrix.h\\\>
 
-  Matrix myMatrix(A4,A5);
+Matrix myMatrix(A4,A5);
 
-  void setup() {
+void setup() {
 
-  myMatrix.begin(112);
+myMatrix.begin(112);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  }
+}
 
-  void loop() {
+void loop() {
 
-  myMatrix.drawRect(1, 2, 6, 4, HIGH);
+myMatrix.drawRect(1, 2, 6, 4, HIGH);
 
-  myMatrix.writeDisplay();
+myMatrix.writeDisplay();
 
-  }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
 
-**Project Result:**
+Project Result:
 
 Upload the code to the coding box successfully, the LED dot matrix will display
 the pattern as shown in the figure below.
 
 ![IMG20210428153538](media/ea18e87ce887ec8605ea0ded956b0eef.jpeg)
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 20 Display A Circle
+Project 20 Display A Circle
 
-**Project Introduction**
+Project Introduction
 
 In the previous project, the matrix has shown a rectangle with its LEDs. In this
-one, we will help it exhibit a circle. **Working Principle**
+one, we will help it exhibit a circle. Working Principle
 
 ![](media/1ecd6e9b24188b6841f5405555b9e94c.png)
 
@@ -2561,59 +2526,57 @@ just alter the value to(3,4,3).
 
 The following is the code.
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 20
+Project 20
 
-  88 dot matrix-turn on a LED
+88 dot matrix-turn on a LED
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<ks_Matrix.h\>
+\\\#include \\\<ks_Matrix.h\\\>
 
-  Matrix myMatrix(A4,A5);
+Matrix myMatrix(A4,A5);
 
-  void setup() {
+void setup() {
 
-  myMatrix.begin(112);
+myMatrix.begin(112);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  }
+}
 
-  void loop() {
+void loop() {
 
-  myMatrix.drawCircle(3, 4, 2, HIGH);
+myMatrix.drawCircle(3, 4, 2, HIGH);
 
-  myMatrix.writeDisplay();
+myMatrix.writeDisplay();
 
-  }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
 
-**Project Result:**
+Project Result:
 
 Upload the code to the coding box successfully, the LED dot matrix will display
 as shown in the figure below.
 
 ![IMG20210428153812](media/288a47096e4a7439f9d46ac63ccebd15.jpeg)
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 21 Display Text and Numbers
+Project 21 Display Text and Numbers
 
-**Project Introduction**
+Project Introduction
 
 In the previous projects, we just use the matrix to show a point, a line, a
 rectangle and a circle. From this one, we will make the matrix to show digits
 and characters, which is pretty cool. With this skill, we are able to deliver
 information, like what price tags and billboards do.
 
-**Project Principle**
+Project Principle
 
 This project is also relatively simple. To render the matrix to display numbers
 or characters we need to decide a starting point. For example, in the figure
@@ -2624,59 +2587,57 @@ below, the blue point spot(2,0) is the starting point of the letter K.
 Then we also need to input the position value(2,0) to the code so as to display
 the letter K.
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 21
+Project 21
 
-  88 dot matrix-display text and numbers
+88 dot matrix-display text and numbers
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<ks_Matrix.h\>
+\\\#include \\\<ks_Matrix.h\\\>
 
-  Matrix myMatrix(A4,A5);
+Matrix myMatrix(A4,A5);
 
-  void setup() {
+void setup() {
 
-  myMatrix.begin(112);
+myMatrix.begin(112);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  }
+}
 
-  void loop() {
+void loop() {
 
-  myMatrix.setTextSize(1);//Set the size of characters
+myMatrix.setTextSize(1);//Set the size of characters
 
-  myMatrix.setTextWrap(false); // we dont want text to wrap so it scrolls nicely
+myMatrix.setTextWrap(false); // we dont want text to wrap so it scrolls nicely
 
-  myMatrix.setTextColor(1);
+myMatrix.setTextColor(1);
 
-  myMatrix.setRotation(0);// Rotation
+myMatrix.setRotation(0);// Rotation
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  myMatrix.setCursor(2,0);//Input the value of the position
+myMatrix.setCursor(2,0);//Input the value of the position
 
-  myMatrix.print("K"); //Input characters or letters
+myMatrix.print("K"); //Input characters or letters
 
-  myMatrix.writeDisplay();
+myMatrix.writeDisplay();
 
-  delay(1000);
+delay(1000);
 
-  }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 22 Display Images
+Project 22 Display Images
 
-**Project Introduction**
+Project Introduction
 
 Mobile phones, computer screens, billboards and other display devices all
 consist of many small luminous units. However, the 88 dot matrix has only 64
@@ -2684,7 +2645,7 @@ luminous units. Though it can't display some nice images with high-resolution,
 it can show some cute pictures, such as patterns shaped in little heart, cute
 facial expressions, avatars and others.
 
-**Project Principle**
+Project Principle
 
 To this end, we will need the help of an online version of dot matrix modulus
 tool:<http://dotmatrixtool.com>
@@ -2710,7 +2671,7 @@ Thirdly, draw the pattern wanted.
 
 ![](media/4c43dd24df7a171efc93dde6fc86fbfd.png)
 
-Lastly, click **Generate**, to yield the hexadecimal data needed.
+Lastly, click Generate, to yield the hexadecimal data needed.
 
 ![](media/74678f874e75df130011121c6ed6f610.png)
 
@@ -2718,87 +2679,85 @@ Lastly, click **Generate**, to yield the hexadecimal data needed.
 
 And then integrate the above hexadecimal data into the code
 
-**Project Result**
+Project Result
 
 Upload the code to the coding box successfully, the LED dot matrix will display
 as shown in the figure below.
 
 ![IMG20210428153917](media/aa22f00dcdbca9be9b52092b31c7affc.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 22
+Project 22
 
-  88 dot matrix-display images
+88 dot matrix-display images
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<ks_Matrix.h\>
+\\\#include \\\<ks_Matrix.h\\\>
 
-  Matrix myMatrix(A4,A5);
+Matrix myMatrix(A4,A5);
 
-  uint8_t LedArray1[8]={0x00, 0x66, 0x99, 0x81, 0x42, 0x24, 0x18, 0x00};
+uint8_t LedArray1[8]={0x00, 0x66, 0x99, 0x81, 0x42, 0x24, 0x18, 0x00};
 
-  uint8_t LEDArray[8];
+uint8_t LEDArray[8];
 
-  void setup(){
+void setup(){
 
-  myMatrix.begin(0x70);
+myMatrix.begin(0x70);
 
-  }
+}
 
-  void loop(){
+void loop(){
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  for(int i=0; i\<8; i++)
+for(int i=0; i\\\<8; i++)
 
-  {
+{
 
-  LEDArray[i]=LedArray1[7-i];
+LEDArray[i]=LedArray1[7-i];
 
-  for(int j=7; j\>=0; j--)
+for(int j=7; j\\\>=0; j--)
 
-  {
+{
 
-  if((LEDArray[i]&0x01)\>0)
+if((LEDArray[i]&0x01)\\\>0)
 
-  myMatrix.drawPixel(j, i,1);
+myMatrix.drawPixel(j, i,1);
 
-  LEDArray[i] = LEDArray[i]\>\>1;
+LEDArray[i] = LEDArray[i]\\\>\\\>1;
 
-  }
+}
 
-  }
+}
 
-  myMatrix.writeDisplay();
+myMatrix.writeDisplay();
 
-  }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
 
-**Project Result**
+Project Result
 
 Upload the code to the coding box successfully, the LED dot matrix will display
 as shown in the figure below.
 
-**![IMG20210428154157](media/0dfdf520cc44ee060b4fc5f24671221f.jpeg)**
+![IMG20210428154157](media/0dfdf520cc44ee060b4fc5f24671221f.jpeg)
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 23 Buttons+88 Dot Matrix
+Project 23 Buttons+88 Dot Matrix
 
-**Project Introduction**
+Project Introduction
 
 There are two built-in buttons on the MAX board, which we have used to control
 DIY lamps in previous project. While in this project, we will combine these
 buttons with the 88 dot matrix to make displays.
 
-**Working Principle**
+Working Principle
 
 Preciously,we learned that the signal pins of the two buttons should be
 connected with D2 and D3 and how to make the matrix to show characters. Bearing
@@ -2806,105 +2765,103 @@ these knowledge in mind, we will complete this project. When the button on the
 left side is pressed, the letter L will be displayed while when the right is
 pressed, R will be shown.
 
-**Project Circuit**
+Project Circuit
 
 ![](media/1b7f7e9b8425cb0cf63c81a9d0f19541.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 23
+Project 23
 
-  88 dot matrix-knob control
+88 dot matrix-knob control
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<ks_Matrix.h\>
+\\\#include \\\<ks_Matrix.h\\\>
 
-  Matrix myMatrix(A4,A5);
+Matrix myMatrix(A4,A5);
 
-  int K1=12;
+int K1=12;
 
-  int K2=13;
+int K2=13;
 
-  int x;
+int x;
 
-  void setup()
+void setup()
 
-  {
+{
 
-  myMatrix.begin(112);
+myMatrix.begin(112);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  pinMode(K1,INPUT);
+pinMode(K1,INPUT);
 
-  pinMode(K2,INPUT);
+pinMode(K2,INPUT);
 
-  myMatrix.drawCircle(3,3, 2, 1);
+myMatrix.drawCircle(3,3, 2, 1);
 
-  myMatrix.writeDisplay(); // write the changes we just made to the display
+myMatrix.writeDisplay(); // write the changes we just made to the display
 
-  }
+}
 
-  void loop()
+void loop()
 
-  {
+{
 
-  int K1_level=digitalRead(K1);
+int K1_level=digitalRead(K1);
 
-  int K2_level=digitalRead(K2);
+int K2_level=digitalRead(K2);
 
-  if(K1_level==0)
+if(K1_level==0)
 
-  {
+{
 
-  myMatrix.setTextSize(1);
+myMatrix.setTextSize(1);
 
-  myMatrix.setTextWrap(false); // we dont want text to wrap so it scrolls nicely
+myMatrix.setTextWrap(false); // we dont want text to wrap so it scrolls nicely
 
-  myMatrix.setTextColor(1);
+myMatrix.setTextColor(1);
 
-  myMatrix.setRotation(0);
+myMatrix.setRotation(0);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  myMatrix.setCursor(2,0);
+myMatrix.setCursor(2,0);
 
-  myMatrix.print("L");
+myMatrix.print("L");
 
-  myMatrix.writeDisplay();
+myMatrix.writeDisplay();
 
-  }
+}
 
-  if(K2_level==0)
+if(K2_level==0)
 
-  {
+{
 
-  myMatrix.setTextSize(1);
+myMatrix.setTextSize(1);
 
-  myMatrix.setTextWrap(false); // we dont want text to wrap so it scrolls nicely
+myMatrix.setTextWrap(false); // we dont want text to wrap so it scrolls nicely
 
-  myMatrix.setTextColor(1);
+myMatrix.setTextColor(1);
 
-  myMatrix.setRotation(0);
+myMatrix.setRotation(0);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  myMatrix.setCursor(2,0);
+myMatrix.setCursor(2,0);
 
-  myMatrix.print("R");
+myMatrix.print("R");
 
-  myMatrix.writeDisplay();
+myMatrix.writeDisplay();
 
-  }}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}}
 
-**Project Result**
+Project Result
 
 A successful uploading of the code to the coding box, the LED dot matrix first
 displays a circle; Press the left button and the LED dot matrix displays the
@@ -2914,18 +2871,18 @@ letter "L";Press the right button and the LED dot matrix displays the letter
 | ![IMG20210429083639](media/6b29174e5594c8b96a98cfd624dfaa2f.jpeg) | ![IMG20210429083654](media/64307491b4ec2d0fbf7cfa19f3e5ad68.jpeg) | ![IMG20210429083646](media/2a48b9b05aab397989ca672144208473.jpeg) |
 |-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 24 Light Sensor+88 Dot Matrix
+Project 24 Light Sensor+88 Dot Matrix
 
-**Project Introduction**
+Project Introduction
 
 We have made a night light based on the property of the light sensor that its
 resistance decreases with the increasing of the light. In this project, we will
 show you something intriguing too. We will combine the matrix with the light
 sensor to display the length of the light.
 
-**Project Principle**
+Project Principle
 
 The signal pin of the light sensor is wired with the A6 of the MAX development
 board. And the light column displayed on the 88 dot matrix will change with the
@@ -2933,59 +2890,57 @@ external light detected by the light sensor. When the detected light is darker,
 the light column displayed is shorter; when the light becomes brighter, the
 light column gets longer;
 
-**Project Circuit**
+Project Circuit
 
 ![](media/0bcf08d07f70243d7b34c148f79a64a0.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 24
+Project 24
 
-  88 dot matrix-light control
+88 dot matrix-light control
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<ks_Matrix.h\>
+\\\#include \\\<ks_Matrix.h\\\>
 
-  Matrix myMatrix(A4,A5);
+Matrix myMatrix(A4,A5);
 
-  int light = A6;
+int light = A6;
 
-  int Light_val;
+int Light_val;
 
-  void setup() {
+void setup() {
 
-  pinMode(A6,INPUT);
+pinMode(A6,INPUT);
 
-  myMatrix.begin(112);
+myMatrix.begin(112);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  }
+}
 
-  void loop() {
+void loop() {
 
-  Light_val=analogRead(A6);
+Light_val=analogRead(A6);
 
-  Light_val=map(Light_val,0,1023,0,15);
+Light_val=map(Light_val,0,1023,0,15);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  myMatrix.drawLine(3,0, 3,Light_val, 1);
+myMatrix.drawLine(3,0, 3,Light_val, 1);
 
-  myMatrix.writeDisplay(); // write the changes we just made to the display
+myMatrix.writeDisplay(); // write the changes we just made to the display
 
-  delay(10);
+delay(10);
 
-  }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, the LED dot matrix displays a line
 when the sensor detect light. And when the light sensor is blocked, the height
@@ -2995,75 +2950,73 @@ the higher the height of the dot matrix displays.
 ![](media/fd6a74121c0c1266b1c9abf56fe787a8.png)
 ![](media/a36a37797539ab5fae5ace3aba609fc2.png)
 
-**next project**\*\*\*
+next project\*\*\*
 
-### Project 25 Sound Sensor+88 Dot Matrix
+Project 25 Sound Sensor+88 Dot Matrix
 
-**Project Introduction**
+Project Introduction
 
 Previously, we used a sound sensor and LED to make a voice-controlled lamp. Here
 we will use the sound sensor and the 88 dot matrix to interact together and do
 some interesting projects.
 
-**Working Principle**
+Working Principle
 
 The signal pin of the sound sensor is connected with the A2 on the MAX
 development board. And the cycle displayed on the matrix can get bigger as the
 sound sensed increases.
 
-**Project Circuit**
+Project Circuit
 
 ![](media/bb43f2a41e7c0654aeb6a6c06d0ff4de.jpeg)
 
-**Project Code**
+Project Code
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  \*Kidsbits Coding Box
+\\\*Kidsbits Coding Box
 
-  Project 25
+Project 25
 
-  88 dot matrix-sound control
+88 dot matrix-sound control
 
-  http//www.kidsbits.cc
+http//www.kidsbits.cc
 
-  */
+\*/
 
-  \#include \<ks_Matrix.h\>
+\\\#include \\\<ks_Matrix.h\\\>
 
-  Matrix myMatrix(A4,A5);
+Matrix myMatrix(A4,A5);
 
-  int mic = A2;
+int mic = A2;
 
-  int Mic_val;
+int Mic_val;
 
-  void setup() {
+void setup() {
 
-  pinMode(mic,INPUT);
+pinMode(mic,INPUT);
 
-  myMatrix.begin(112);
+myMatrix.begin(112);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  }
+}
 
-  void loop() {
+void loop() {
 
-  Mic_val=analogRead(mic);
+Mic_val=analogRead(mic);
 
-  Mic_val=map(Mic_val,0,1023,0,10);
+Mic_val=map(Mic_val,0,1023,0,10);
 
-  myMatrix.clear();
+myMatrix.clear();
 
-  myMatrix.drawCircle(3,3,Mic_val, 1);
+myMatrix.drawCircle(3,3,Mic_val, 1);
 
-  myMatrix.writeDisplay(); // write the changes we just made to the display
+myMatrix.writeDisplay(); // write the changes we just made to the display
 
-  delay(10);
+delay(10);
 
-  }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
 
-**Project Result**
+Project Result
 
 After uploading the code to the coding box, we find that the LED dot matrix
 displays a dot when the sound sensor detects a sound. When the sound is loud
