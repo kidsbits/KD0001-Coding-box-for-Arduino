@@ -4,6 +4,8 @@
    :caption: KD0001 Coding Box Kit for Arduino
 
    
-   KD0001_arduino.md  
+   home.md  
+   Arduino/arduino.md
+   Kidsblock/kidsblock
   
  
