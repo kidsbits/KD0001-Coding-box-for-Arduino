@@ -1,4 +1,6 @@
-#  Getting started with kidsblock
+# kidsblock tutorial
+
+## Getting started with kidsblock
 
 **Instruction**
 
@@ -10,13 +12,13 @@ The Kidsblock, based on the Scratch graphical programming software, integrates m
 
 **[MACOS system](https://www.kidsblock.cn/Down/KidsBlock-MACOS.dmg)**
 
-# How to use KidsBlock
+**How to use KidsBlock**
 
-1.  Interface
+Interface
 
 ![](media/1d07c862c2e059febe07f1522290513d.png)
 
-1.  Click![](media/3dd044ace633a5f7218b0d19a55ff9cf.png)to switch to different languages
+Click![](media/3dd044ace633a5f7218b0d19a55ff9cf.png)to switch to different languages
 
 ![无标题](media/a26ac98fda5eb460bae6370e017e1869.png)
 
@@ -26,55 +28,55 @@ Note: If the driver is not installed, as shown below;
 
 ![](media/bef7e6706a96aa449213e76f661a8530.png)
 
-1.  Click “Next” at the **Device Driver Installation Wizard** page.
+Click “Next” at the **Device Driver Installation Wizard** page.
 
 ![](media/4c104ba0a545ee1041c2b826497c6c0f.png)
 
-1.  After a while, click“Finish”
+After a while, click“Finish”
 
-    ![](media/fca8d2cd82b6cc8026cd05d3f3e4536a.png)
+![](media/fca8d2cd82b6cc8026cd05d3f3e4536a.png)
 
-1.  Then click“Next”.
+Then click“Next”.
 
-    ![](media/c2f1cc5d63d3d3b2534ccce20f38fd62.png)
+![](media/c2f1cc5d63d3d3b2534ccce20f38fd62.png)
 
-2.  And click“Finish”.
+And click“Finish”.
 
-    ![](media/1acc73921191044749961892aa5beeae.png)
+![](media/1acc73921191044749961892aa5beeae.png)
 
-1.  Then click“**Allow**”and“**Install**”
+Then click“**Allow**”and“**Install**”
 
-    ![](media/f5855178a9320b2b9440fb025dae31cb.png)
+![](media/f5855178a9320b2b9440fb025dae31cb.png)
 
-    ![](media/f5855178a9320b2b9440fb025dae31cb.png)
+![](media/f5855178a9320b2b9440fb025dae31cb.png)
 
-2.  After a while，click“Finish”
+After a while，click“Finish”
 
-    ![](media/1e9d4fc27460ab88bb3d30b85b71ffbf.png)
+![](media/1e9d4fc27460ab88bb3d30b85b71ffbf.png)
 
-3.  Select“Extract”
+Select“Extract”
 
-    ![](media/8b7694d9158b63cd0113dd422c7dec54.png)
+![](media/8b7694d9158b63cd0113dd422c7dec54.png)
 
-1.  Click“**Next**”
+Click“**Next**”
 
-    ![](media/9a0d50d923ba8534cfd5cfb23c93a339.png)
+![](media/9a0d50d923ba8534cfd5cfb23c93a339.png)
 
-2.  Next, click“**I accept this agreement**”and“**Next**”
+Next, click“**I accept this agreement**”and“**Next**”
 
-    ![](media/bd39d1e73f87cc7345ab0d80784d8bf7.png)
+![](media/bd39d1e73f87cc7345ab0d80784d8bf7.png)
 
-1.  Click“Finish”.
+Click“Finish”.
 
-    ![](media/819da99e656406de8c7446febf1cef82.png)
+![](media/819da99e656406de8c7446febf1cef82.png)
 
-2.  After a while, click“**INSTALL”**
+After a while, click“**INSTALL”**
 
-    ![](media/e7d93c27bcd6582a837ae61c3bb5589a.png)
+![](media/e7d93c27bcd6582a837ae61c3bb5589a.png)
 
-1.  After a few seconds, when the driver is installed, just click“**OK**”
+After a few seconds, when the driver is installed, just click“**OK**”
 
-    ![](media/c434a3523857af84ec8f2e0fe5091741.png)
+![](media/c434a3523857af84ec8f2e0fe5091741.png)
 
 Click ![](media/bfbf7c471ede03845519b11961a13837.png) to enter the main page, select the control board needed. In this project, we select“**Codingbox**”and click **Connect,** then it is connected.
 
@@ -104,7 +106,7 @@ Then you will find a page pop up, showing **Connected.**
 
 ![](media/753ceb611961e0c9809a3b4b9e1a4ce7.png)
 
-![图片1](media/5bc5bd7ee5416899cc77dda7d7164413.png)
+![](media/5bc5bd7ee5416899cc77dda7d7164413.png)
 
 To disconnect the port, just click ![](media/7c3a292eb2fa4960da8e706d775b2d68.png) and **Disconnect**
 
@@ -114,7 +116,7 @@ Note: if you want to update libraries of KidsBlock, click ![](media/49ea7c72ac42
 
 ![](media/e716fa3d504ad8437250aa3091394093.png)
 
-1.  How to open SB3 type files：
+How to open SB3 type files：
 
 1：Double-click SB3 type files to open them.
 
@@ -122,7 +124,7 @@ For instance, open ![](media/362c2e233ce5534fcd4e19036b54a959.png), then we need
 
 ![](media/75e90f0a2b3c940d0ada0cb707325c69.png)
 
-1.  Open Kidsblock，click **file and Load from your computer**，then select the SB3 type file on the computer.（for example ![](media/362c2e233ce5534fcd4e19036b54a959.png)）
+Open Kidsblock，click **file and Load from your computer**，then select the SB3 type file on the computer.（for example ![](media/362c2e233ce5534fcd4e19036b54a959.png)）
 
 ![](media/8a39d0edec305298402df4216e984b61.png)
 
@@ -130,7 +132,7 @@ For instance, open ![](media/362c2e233ce5534fcd4e19036b54a959.png), then we need
 
 ![](media/75e90f0a2b3c940d0ada0cb707325c69.png)
 
-# Projects
+## Projects
 
 Project 01:Hello,World!
 
@@ -210,7 +212,7 @@ The letters can be spelled out through the two states of the LED switch, using l
 
 By consulting the Morse code table, we can know that the letter "S" is represented by three dots, and we use short blinking instead, and the letter "O" is represented by three horizontal bars, which is replaced by long blinking here.
 
-![IMG_256](media/b00d96e54bdfa975d6bf5c1690ea46c5.jpeg)
+![](media/b00d96e54bdfa975d6bf5c1690ea46c5.jpeg)
 
 **Circuit Connection**
 
@@ -339,7 +341,7 @@ Project 06: Play Music
 
 **Project Introduction**
 
-![tutorial-13-01](media/7698038b32063fb86a610cc95c750a51.jpeg)
+![](media/7698038b32063fb86a610cc95c750a51.jpeg)
 
 In the previous , you had heard about active buzzers, which can only emit one sound,and it's very monotonous.
 
@@ -572,7 +574,7 @@ According to the feedback voltage of the potentiometer, the control circuit comp
 
 Servo's control pulse cycle is 20ms, and the pulse width ranges from 0.5ms to 2.5ms, corresponding to positions from -90 degrees to +90 degrees, taking a 180 degree angle servo as an example
 
-![图片1(17)](media/708316fde05c62113a3024e0efb0c237.jpeg)
+![](media/708316fde05c62113a3024e0efb0c237.jpeg)
 
 Servo motor comes with many specifications. But all of them have three connection wires, distinguished by brown, red, orange (different brand may have different color).
 
@@ -741,7 +743,7 @@ Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the co
 
 Project 14: Sound
 
-![1_LMeN7c8posQaB9PuPh5kCA](media/091c437f01ef19cbfe66c1cb3be2c989.png)
+![](media/091c437f01ef19cbfe66c1cb3be2c989.png)
 
 **Project Introduction**
 

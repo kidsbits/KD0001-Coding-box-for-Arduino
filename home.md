@@ -1,8 +1,8 @@
-**Coding Box Kit**
+# Kidsbits Coding Box Kit
 
 ![](media/ee88ff10210161be072625fe1bf0d64f.png)
 
-**1.Introduction**
+# Introduction
 
 Coding Box is a programming learning toolbox based on Arduino, which is a programming tool specially designed for children over 6 years old.
 
@@ -33,48 +33,4 @@ Coding Box uses Arduino for programming, and is also compatible with Mixly graph
 |   PIR Motion Sensor  |    ![](media/d7f0a453f9fc2e421952ec5f93047b69.png)   |   Connected to digital pin D2.                   | PIR Motion Sensor is a sensor that uses the characteristics of temperature change to detect infrared radiation. When a person enters its sensing range, it outputs a high level. When the person leaves the sensing range, it automatically delays the high level and outputs a low level, which is widely used in infrared automatic sensor lights, sensor switches, burglar alarms and IR welcome device.                                    |
 |   Reed switch        |   ![](media/54b7a16b851a0b3c5f7d381344a9f0f7.png)    |   Connected to analog pin A0.                    | Reed Sensor, also known as reed switch, is an electrical switch operated by an applied magnetic field, which is widely used in household appliances, automobiles, communications, industry, medical area, security and other fields.                                                                                                                                                                                                           |
 
-**3. Projects**
 
-Project 01：Hello,World!
-
-Project 02：Blink
-
-Project 03：SOS
-
-Project 04：PWM
-
-Project 05：RGB
-
-Project 06：Play Music
-
-Project 07：Small Desktop Lamp
-
-Project 08：PIR Motion Alarm
-
-Project 09：Reed Switch
-
-Project 10：Fan
-
-Project 11：Servo
-
-Project 12：Potentiometer
-
-Project 13：Light
-
-Project 14：Sound
-
-Project 15：Gas Sensor
-
-Project 16：Temperature Tester
-
-Project 17：Turns An LED On
-
-Project 18：Turn On A Line
-
-Project 19：Display A Rectangle
-
-Project 20：Display Images
-
-Project 21：Buttons_Dot Matrix
-
-Project 22：Light Sensor_Dot Matrix
