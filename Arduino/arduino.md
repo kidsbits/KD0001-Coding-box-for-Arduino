@@ -7,7 +7,7 @@
 ##  Download Software & Install Driver
 
 
-###  3.1 Windows System
+###  1. Windows System
 
 
  (1) Download the Arduino IDE
@@ -95,7 +95,7 @@ the device as the figure shown below.
 
 ![](media/97e57ac74dfb924d7693f5fc524c7eb8.png )
 
-###  3.2 MAC System
+###  2. MAC System
 
 
  (1) Install Arduino IDE on MAC System
@@ -123,7 +123,7 @@ is download version. You just need to download the file to computer directly and
 unzip it. These two versions can be used normally. Choose one and download on
 your computer.
 
-###  3.3 Arduino IDE Setting
+###  3. Arduino IDE Setting
 
 
 Click![](media/675ae7298ce0973df720b2fbbb514caa.png )icon，open Arduino IDE.
@@ -160,7 +160,7 @@ E- Used to save the sketch.
 
 F- Used to send the serial data received from board to the serial monitor.
 
-###  3.4 Start your first program
+###  4. Start your first program
 
 
 Open the file to select Example, choose BLINK from BASIC, as shown below:
@@ -193,7 +193,7 @@ upload successfully.
 Upload the program successfully, the on-board LED lights on for 1s, lights off
 for 1s. Congratulation, you have finished the first program.
 
-###  3.5 Add Libraries to Arduino
+###  5. Add Libraries to Arduino
 
 
 What are Libraries ?
@@ -2283,7 +2283,7 @@ You can use this item to make a temperature reminder water cup.
 
 ********************************next project***********************************
 
-###  Project 17 Turns An LED On**
+###  Project 17 Turns An LED On
 
 
 ![display](media/6c46b8b2c64c8a5b6f7a266636fdea42.GIF )
@@ -2377,7 +2377,7 @@ the required LED as shown in the figure below.
 
 ********************************next project***********************************
 
-###  Project 18 Turn On A Line**
+###  Project 18 Turn On A Line
 
 
  **Project Introduction**
