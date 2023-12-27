@@ -134,7 +134,7 @@ Open Kidsblock，click **file and Load from your computer**，then select the SB
 
 ## Projects
 
-Project 01:Hello,World!
+### Project 01:Hello,World!
 
 **Project Introduction**
 
@@ -162,7 +162,7 @@ Click ![](media/7d0dd11d1d0571b13ca0f647398d49d7.png) to upload the program, aft
 
 ![](media/2e15c5ec644de024fbea8e39af67023c.png)
 
-Project 02: Blink
+### Project 02: Blink
 
 ![](media/e172097d088597aeb4fa5b87884cc07b.png)
 
@@ -198,7 +198,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully, you can see that the red LED of D7 starts blinking, which is on for 1 second and off for 1 second.
 
-Project 03: SOS
+### Project 03: SOS
 
 **![ar127732484141907](media/81e4da10825215960513501feec3da01.jpeg)**
 
@@ -236,7 +236,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully, you can see that the red LED at D7 fast flash 3 times and then slowly flash 3 times alternatively, which can stimulate SOS alarm in Morse code.
 
-Project 04: PWM
+### Project 04: PWM
 
 ![F9L0KY5JFMT9AQJ](media/28b49fa1742d1dd05f1b226e98f72ede.GIF)
 
@@ -293,7 +293,7 @@ Complete Program
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully, you can see the blue light in the RGB on the coding box constantly brightening and dimming, just like a breathing light.
 
 
-Project 05: RGB
+### Project 05: RGB
 
 **Project Introduction**
 
@@ -337,7 +337,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully, you can see the light of the RGB light on the coding box, and the color keeps changing.
 
-Project 06: Play Music
+### Project 06: Play Music
 
 **Project Introduction**
 
@@ -378,7 +378,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully, you can hear the buzzer playing the song "Ode to Joy" on the coding box
 
-Project 07: Small Desktop Lamp
+### Project 07: Small Desktop Lamp
 
 ![](media/971f37ad6c378e7adcec54d53e204165.png)
 
@@ -428,7 +428,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully, when the button at D12 is pressed once, the light at D7 will be on; when the button is pressed again, the light at D7 goes out, the same working situation as the desk lamp.
 
-Project 08: PIR Motion Alarm
+### Project 08: PIR Motion Alarm
 
 **![camtraptions-pir-motion-sensor-review-800x534](media/7f7ae565dcfff72f2669ab77911a4e35.jpeg)**
 
@@ -475,7 +475,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully,when the human infrared sensor detects people moving nearby,the LED starts flashing, the buzzer sounds. If no one is detected nearby, the LED is off and the buzzer does not sound.
 
-Project 09: Reed Switch
+### Project 09: Reed Switch
 
 **Project Introduction**
 
@@ -520,7 +520,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully,when the magnetic reed detects nearby magnetic force, the LED lights up. If no magnetic force is detected, the LED is off.
 
-Project 10: DC motor
+### Project 10: DC motor
 
 **Project Introduction**
 
@@ -554,7 +554,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully, the motor on the coding box rotates clockwise for 1 second, with a delay of 3 seconds. Then turn counterclockwise for 1 second, delay 3 seconds, and loop.
 
-Project 11: Servo
+### Project 11: Servo
 
 **Project Introduction**
 
@@ -603,7 +603,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully,the servo rotates, the angle starts from 0°, increases by 45° every 0.5 seconds, and when it reaches 180°, it turns to the 0° position.
 
-Project 12: Potentiometer
+### Project 12: Potentiometer
 
 **Project Introduction**
 
@@ -667,7 +667,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully，you can control the brightness of the red LED in the RGB through the potentiometer.
 
-Project 13: Light
+### Project 13: Light
 
 **Project Introduction**
 
@@ -741,7 +741,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully，the photoresistor can detect the intensity of the light. The brighter the light, the brighter the red LED in RGB.
 
-Project 14: Sound
+### Project 14: Sound
 
 ![](media/091c437f01ef19cbfe66c1cb3be2c989.png)
 
@@ -809,7 +809,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully，the microphone sensor can detect the sound. When the value of the sound is greater than 650, the motor fan starts to rotate. If it does not reach 650, the motor fan does not rotate.
 
-Project 15: Gas Sensor
+### Project 15: Gas Sensor
 
 ![How-to-Detect-and-Prevent-a-Gas-Leak-in-Your-House-Cover-27-03](media/2ab7d4af7c4d7a56c8ce48b8bbb177b5.jpeg)
 
@@ -851,7 +851,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully，the gas sensor can detect combustible gas. After detecting combustible gas, the buzzer will issue an alarm and the light on RGB will be red. If no combustible gas is detected, the buzzer will not make a sound, and the light on it lights up green.
 
-Project 16: Temperature Tester
+### Project 16: Temperature Tester
 
 **Project Introduction**
 
@@ -939,7 +939,7 @@ When the temperature is less than 30°C, the RGB LED lights up blue,
 
 You can use this item to make a temperature reminder water cup.
 
-Project 17: Turns An LED On
+### Project 17: Turns An LED On
 
 ![display](media/6c46b8b2c64c8a5b6f7a266636fdea42.GIF)
 
@@ -993,7 +993,7 @@ Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the co
 
 ![](media/b2bcf53e6b85799f0ff386926ee9e9b1.png)
 
-Project 18: Turn On A Line
+### Project 18: Turn On A Line
 
 **Project Introduction**
 
@@ -1029,7 +1029,7 @@ Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the co
 
 ![](media/cf49523bcce956ab4fad4cb4ff0dc9f3.jpeg)
 
-Project 19: Display A Rectangle
+### Project 19: Display A Rectangle
 
 **Project Introduction**
 
@@ -1071,7 +1071,7 @@ Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the co
 
 ![IMG20210428153538](media/ea18e87ce887ec8605ea0ded956b0eef.jpeg)
 
-Project 20: Display Images
+### Project 20: Display Images
 
 **Project Introduction**
 
@@ -1095,7 +1095,7 @@ Complete Program
 
 Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the coding box successfully，the LED dot matrix will display![](media/224a3f93808454dfed7065a5410f0813.png)，![](media/6f46d0e7f9319bb7ce850abac0310d3f.png)，![](media/9db7f3ed9d96517fa103b9735ff3cf8a.png)，![](media/80a1cb881e9b81206c96dbfd41cf5eef.png).
 
-Project 21: Buttons+8\*8 Dot Matrix
+### Project 21: Buttons+8*8 Dot Matrix
 
 **Project Introduction**
 
@@ -1131,7 +1131,7 @@ Click![](media/7d0dd11d1d0571b13ca0f647398d49d7.png)to upload the code to the co
 
 the LED dot matrix first displays ![](media/224a3f93808454dfed7065a5410f0813.png)，Press the left button and the LED dot matrix displays ![](media/6f46d0e7f9319bb7ce850abac0310d3f.png). Press the right button and the LED dot matrix displays ![](media/9db7f3ed9d96517fa103b9735ff3cf8a.png).
 
-Project 22: Light Sensor+8\*8 Dot Matrix
+### Project 22: Light Sensor+8*8 Dot Matrix
 
 **Project Introduction**
 
