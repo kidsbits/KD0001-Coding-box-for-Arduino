@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Coding Box'
+project = 'Kidsbits Wiki'
 copyright = '2022, kidsbits'
 author = 'kidsbits'
 
