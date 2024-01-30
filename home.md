@@ -1,6 +1,9 @@
 # Kidsbits Coding Box Kit
 
 ![](media/ee88ff10210161be072625fe1bf0d64f.png)
+# Download tutorial and project code
+
+**[https://kd.kidsbits.cc/KD0001](https://kd.kidsbits.cc/KD0001)**
 
 # Introduction
 
