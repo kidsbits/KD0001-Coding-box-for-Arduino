@@ -8,9 +8,10 @@ The Kidsblock, based on the Scratch graphical programming software, integrates m
 
 **Download and install KidsBlock software**
 
-**[Windows system](https://www.kidsblock.cn/Down/KidsBlock.exe)**
+**[Windows system](https://xiazai.keyesrobot.cn/KidsBlock.exe)**
 
-**[MACOS system](https://www.kidsblock.cn/Down/KidsBlock-MACOS.dmg)**
+**[MACOS system](https://xiazai.keyesrobot.cn/KidsBlock.dmg)**
+
 
 **How to use KidsBlock**
 
@@ -20,7 +21,7 @@ Interface
 
 Click![](media/3dd044ace633a5f7218b0d19a55ff9cf.png)to switch to different languages
 
-![无标题](media/a26ac98fda5eb460bae6370e017e1869.png)
+![](media/a26ac98fda5eb460bae6370e017e1869.png)
 
 3\. Click![](media/ceea175e15c8425a1a70baaaf56d40b3.png)to select“**Install driver**”.
 
