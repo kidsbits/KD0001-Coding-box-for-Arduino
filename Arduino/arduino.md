@@ -1487,7 +1487,7 @@ Brown one is for GND, red one for power positive, orange one for signal line.
 
       */
 
-      \#include <Servo.h>
+      #include <Servo.h>
 
       Servo myservo;// define servo variable name
 
@@ -2816,7 +2816,7 @@ pressed, R will be shown.
 
       */
 
-      \#include <ks_Matrix.h>
+      #include <ks_Matrix.h>
 
       Matrix myMatrix(A4,A5);
 
@@ -3026,7 +3026,7 @@ sound sensed increases.
 
       */
 
-      \#include <ks_Matrix.h>
+      #include <ks_Matrix.h>
 
       Matrix myMatrix(A4,A5);
 
